@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching_Property_Address" time="15" tests="0" failures="0" errors="1">
+   <testsuite name="Searching_Property_Address" tests="0" failures="0" errors="1" time="15" timestamp="2017-12-06 15:38:22" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Searching_Property_Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Six\\Reports\\Searching_Property_Address\\20171206_153821"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Six\\Reports\\Searching_Property_Address\\20171206_153821\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="f61731f2-ff96-4ca9-8524-9b2aabb768c4"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Searching property Address" classname="Test Cases/Searching property Address" status="ERROR">
+         <error type="ERROR" message="Test Cases/Searching property Address FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.ArrayList) values: [TestObject - 'Object Repository/input_formattedAddress', [690 Park Ave SE Atlanta, GA 30312 USA]]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2017-12-06 15:38:23 - [TEST_CASE][ERROR] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.ArrayList) values: [TestObject - 'Object Repository/input_formattedAddress', [690 Park Ave SE Atlanta, GA 30312 USA]]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2017-12-06 15:38:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-06 15:38:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-06 15:38:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 15:38:27 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 15:38:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cogitate.us:8066/' successfully
+
+2017-12-06 15:38:32 - [MESSAGE][PASSED] - Navigate to 'http://www.cogitate.us:8066/' successfully
+
+2017-12-06 15:38:32 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 15:38:33 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 15:38:33 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 15:38:33 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 15:38:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 15:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 15:38:36 - [TEST_STEP][PASSED] - Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 15:38:36 - [TEST_CASE][PASSED] - Test Cases/Prepare_property_Address: Test Cases/Prepare_property_Address
+
+2017-12-06 15:38:36 - [TEST_STEP][PASSED] - Statement - info = ["prAddress":"length"]: null
+
+2017-12-06 15:38:36 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/Address"): Reading excel file with source file 'D:\Katalon_Practice_Workspace\Katalon_Six\Data Files\Katalon_Property_Address.xlsx' and sheet name 'Search_Address'
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - data1 = data.getRowNumbers(): null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - print(data1): null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - prAddress = data.getAllData(): null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - print(prAddress): null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - length = data1.toString(): null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - print(info): null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - return info: null
+
+2017-12-06 15:38:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - Statement - prAddress = prAddress[1]: null
+
+2017-12-06 15:38:37 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/input_formattedAddress']]></system-out>
+         <system-err><![CDATA[2017-12-06 15:38:23 - [TEST_CASE][ERROR] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.ArrayList) values: [TestObject - 'Object Repository/input_formattedAddress', [690 Park Ave SE Atlanta, GA 30312 USA]]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 15:38:22 - [TEST_SUITE][ERROR] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.ArrayList) values: [TestObject - 'Object Repository/input_formattedAddress', [690 Park Ave SE Atlanta, GA 30312 USA]]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2017-12-06 15:38:22 - [TEST_SUITE][ERROR] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.ArrayList) values: [TestObject - 'Object Repository/input_formattedAddress', [690 Park Ave SE Atlanta, GA 30312 USA]]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

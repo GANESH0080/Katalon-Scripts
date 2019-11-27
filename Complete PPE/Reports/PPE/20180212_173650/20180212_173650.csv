@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Chrome 63.0.3239.132,,2018-02-12 17:36:52,2018-02-12 17:39:28,2m - 35.926s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,Chrome 63.0.3239.132,Agent Quote process,2018-02-12 17:36:52,2018-02-12 17:38:27,1m - 35.232s,PASSED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:36:53,2018-02-12 17:36:53,0.001s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:36:53,2018-02-12 17:36:53,0.001s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-12 17:36:53,2018-02-12 17:36:53,0.041s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-12 17:36:53,2018-02-12 17:36:53,0.016s,PASSED
+com.PPE.url_Navigation.gotoURL,Chrome 63.0.3239.132,,2018-02-12 17:36:53,2018-02-12 17:37:00,7.647s,PASSED
+com.PPE.IncorrectLogin.login,Chrome 63.0.3239.132,,2018-02-12 17:37:00,2018-02-12 17:37:38,38.077s,PASSED
+com.PPE.Login.correctlogin,Chrome 63.0.3239.132,,2018-02-12 17:37:38,2018-02-12 17:37:44,5.738s,PASSED
+"Statement - If (genericDATA.internallyGetValue(""STATE"", configDataRowCounter) == ""GA"")",Chrome 63.0.3239.132,,2018-02-12 17:37:44,2018-02-12 17:37:45,0.471s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-12 17:37:45,2018-02-12 17:37:53,8.731s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-12 17:37:53,2018-02-12 17:37:53,0.014s,PASSED
+com.PPE.QuotePropertyDataSelection.QuoteCreation,Chrome 63.0.3239.132,,2018-02-12 17:37:53,2018-02-12 17:38:27,34.013s,PASSED
+,,,,,,
+Test Cases/APPLICATION_CREATION,Chrome 63.0.3239.132,,2018-02-12 17:38:27,2018-02-12 17:38:55,27.585s,FAILED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.001s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.001s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.005s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.005s,PASSED
+Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address),Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.005s,PASSED
+"Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, ""value"")",Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.062s,PASSED
+Statement - println(propertyaddress),Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.003s,PASSED
+Statement - propertyaddress = propertyaddress,Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:28,0.003s,PASSED
+com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage,Chrome 63.0.3239.132,,2018-02-12 17:38:28,2018-02-12 17:38:55,27.256s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,Chrome 63.0.3239.132,,2018-02-12 17:38:55,2018-02-12 17:39:26,31.320s,FAILED
+com.PPE.Endorsement_UW.EndorsementByUW,Chrome 63.0.3239.132,,2018-02-12 17:38:55,2018-02-12 17:39:26,31.243s,FAILED

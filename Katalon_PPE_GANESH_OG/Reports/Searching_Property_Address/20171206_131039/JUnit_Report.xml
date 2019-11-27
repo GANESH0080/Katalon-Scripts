@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching_Property_Address" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="Searching_Property_Address" tests="0" failures="0" errors="1" time="1" timestamp="2017-12-06 13:10:41" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Searching_Property_Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_131039"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_131039\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Searching property Address" classname="Test Cases/Searching property Address" status="ERROR">
+         <error type="ERROR" message="Test Cases/Searching property Address FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Katalon_Property_Address' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Katalon_Property_Address' does not exist'"/>
+         <system-out><![CDATA[2017-12-06 13:10:41 - [TEST_CASE][ERROR] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Katalon_Property_Address' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Katalon_Property_Address' does not exist'
+
+2017-12-06 13:10:42 - [TEST_STEP][FAILED] - Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE): Unable to call Test Case with id 'Test Cases/Prepare_property_Address' (Root cause: Call Test Case 'Test Cases/Prepare_property_Address' failed because of error(s))
+
+2017-12-06 13:10:42 - [TEST_CASE][ERROR] - Test Cases/Prepare_property_Address: Test Cases/Prepare_property_Address FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Katalon_Property_Address' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Katalon_Property_Address' does not exist'
+
+2017-12-06 13:10:42 - [TEST_STEP][PASSED] - Statement - info = ["address":""]: null
+
+2017-12-06 13:10:42 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/Katalon_Property_Address"): Finding test data with id 'Data Files/Katalon_Property_Address'
+
+2017-12-06 13:10:42 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Prepare_property_Address' (Root cause: Call Test Case 'Test Cases/Prepare_property_Address' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2017-12-06 13:10:41 - [TEST_CASE][ERROR] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Katalon_Property_Address' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Katalon_Property_Address' does not exist']]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 13:10:41 - [TEST_SUITE][ERROR] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Katalon_Property_Address' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Katalon_Property_Address' does not exist']]></system-out>
+      <system-err><![CDATA[2017-12-06 13:10:41 - [TEST_SUITE][ERROR] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Katalon_Property_Address' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Katalon_Property_Address' does not exist']]></system-err>
+   </testsuite>
+</testsuites>

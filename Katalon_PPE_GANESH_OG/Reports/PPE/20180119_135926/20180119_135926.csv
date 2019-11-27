@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,,,2018-01-19 13:59:28,2018-01-19 13:59:32,3.465s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,,Agent Quote process,2018-01-19 13:59:28,2018-01-19 13:59:31,2.504s,FAILED
+"Statement - java.lang.System.setProperty(""webdriver.chrome.driver"", ""C:\Users\gsalunkhe\Downloads\chromedriver.exe"")",,,2018-01-19 13:59:29,2018-01-19 13:59:29,0.004s,PASSED
+openBrowser,,,2018-01-19 13:59:29,2018-01-19 13:59:31,1.975s,FAILED
+,,,,,,
+Test Cases/APPLICATION_CREATION,,,2018-01-19 13:59:31,2018-01-19 13:59:31,0.341s,FAILED
+setText,,,2018-01-19 13:59:31,2018-01-19 13:59:31,0.058s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,,,2018-01-19 13:59:31,2018-01-19 13:59:32,0.136s,FAILED
+click,,,2018-01-19 13:59:31,2018-01-19 13:59:31,0.028s,FAILED

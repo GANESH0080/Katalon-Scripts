@@ -1,0 +1,127 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Chrome 63.0.3239.132,,2018-02-15 12:54:54,2018-02-15 13:15:00,20m - 5.970s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,Chrome 63.0.3239.132,Agent Quote process,2018-02-15 12:54:55,2018-02-15 12:56:37,1m - 42.433s,PASSED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-15 12:54:55,2018-02-15 12:54:55,0.001s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-15 12:54:55,2018-02-15 12:54:55,0.002s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-15 12:54:55,2018-02-15 12:54:55,0.042s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-15 12:54:55,2018-02-15 12:54:55,0.024s,PASSED
+com.PPE.url_Navigation.gotoURL,Chrome 63.0.3239.132,,2018-02-15 12:54:55,2018-02-15 12:55:06,10.285s,PASSED
+com.PPE.IncorrectLogin.login,Chrome 63.0.3239.132,,2018-02-15 12:55:06,2018-02-15 12:55:42,36.650s,PASSED
+com.PPE.Login.correctlogin,Chrome 63.0.3239.132,,2018-02-15 12:55:42,2018-02-15 12:55:48,5.769s,PASSED
+"Statement - If (genericDATA.internallyGetValue(""STATE"", configDataRowCounter) == ""GA"")",Chrome 63.0.3239.132,,2018-02-15 12:55:48,2018-02-15 12:55:48,0.440s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:55:48,2018-02-15 12:56:03,14.505s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-15 12:56:03,2018-02-15 12:56:03,0.027s,PASSED
+com.PPE.QuotePropertyDataSelection.QuoteCreation,Chrome 63.0.3239.132,,2018-02-15 12:56:03,2018-02-15 12:56:37,34.190s,PASSED
+,,,,,,
+Test Cases/APPLICATION_CREATION,Chrome 63.0.3239.132,,2018-02-15 12:56:37,2018-02-15 13:02:41,6m - 3.349s,PASSED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.001s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.001s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.006s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.009s,PASSED
+Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address),Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.032s,PASSED
+"Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, ""value"")",Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.055s,PASSED
+Statement - println(propertyaddress),Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.003s,PASSED
+Statement - propertyaddress = propertyaddress,Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:56:38,0.004s,PASSED
+com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage,Chrome 63.0.3239.132,,2018-02-15 12:56:38,2018-02-15 12:57:23,45.361s,PASSED
+com.PPE.Saving_PropertyInfo_Page.PropertyPage,Chrome 63.0.3239.132,,2018-02-15 12:57:23,2018-02-15 12:57:54,31.247s,PASSED
+com.PPE.Policy_Creation.ApplicationBind,Chrome 63.0.3239.132,,2018-02-15 12:57:54,2018-02-15 12:58:44,49.953s,PASSED
+"Statement - otpQuery = ""SELECT TOP 1 OtpGenerated FROM PPE_ApplicationForms_trn where PolicyInfoId = "" + policyInfoId + "" Order BY ModifiedDateTime DESC""",Chrome 63.0.3239.132,,2018-02-15 12:58:44,2018-02-15 12:58:44,0.000s,PASSED
+"Statement - println(""otpQuery"" + "" "" + otpQuery)",Chrome 63.0.3239.132,,2018-02-15 12:58:44,2018-02-15 12:58:44,0.001s,PASSED
+com.PPE.Database_Connection.connectDB,Chrome 63.0.3239.132,Connect to DB,2018-02-15 12:58:44,2018-02-15 12:58:46,1.731s,PASSED
+Statement - recordset = CustomKeywords.com.PPE.Database_Connection.executeQuery(otpQuery),Chrome 63.0.3239.132,ExecQuery,2018-02-15 12:58:46,2018-02-15 12:58:46,0.315s,PASSED
+Statement - otp = 0,Chrome 63.0.3239.132,,2018-02-15 12:58:46,2018-02-15 12:58:46,0.001s,PASSED
+Statement - While (recordset.next()),Chrome 63.0.3239.132,,2018-02-15 12:58:46,2018-02-15 12:58:46,0.049s,PASSED
+"Statement - println(""otp"" + "" "" + otp)",Chrome 63.0.3239.132,,2018-02-15 12:58:46,2018-02-15 12:58:46,0.001s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:58:46,2018-02-15 12:58:56,10.015s,PASSED
+Statement - txtOtp = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application_OR/txtfield-OTP),Chrome 63.0.3239.132,,2018-02-15 12:58:56,2018-02-15 12:58:56,0.046s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 12:58:56,2018-02-15 12:58:57,0.206s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:58:57,2018-02-15 12:58:58,1.003s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:58:58,2018-02-15 12:58:58,0.257s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:58:58,2018-02-15 12:59:03,5.008s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:03,2018-02-15 12:59:03,0.269s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:03,2018-02-15 12:59:05,2.006s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:05,2018-02-15 12:59:05,0.143s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:05,2018-02-15 12:59:07,2.004s,PASSED
+"Statement - If (genericDATA.internallyGetValue(""STATE"", configDataRowCounter) == ""GA"")",Chrome 63.0.3239.132,,2018-02-15 12:59:07,2018-02-15 12:59:07,0.206s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:07,2018-02-15 12:59:08,0.160s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:08,2018-02-15 12:59:13,5.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:13,2018-02-15 12:59:15,2.752s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:15,2018-02-15 12:59:20,5.010s,PASSED
+"Statement - If (genericDATA.internallyGetValue(""STATE"", configDataRowCounter) == ""GA"")",Chrome 63.0.3239.132,,2018-02-15 12:59:20,2018-02-15 12:59:25,4.896s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:25,2018-02-15 12:59:30,5.009s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:30,2018-02-15 12:59:36,5.872s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:36,2018-02-15 12:59:44,8.011s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:44,2018-02-15 12:59:51,7.008s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 12:59:51,2018-02-15 12:59:56,5.007s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 12:59:56,2018-02-15 12:59:56,0.197s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 12:59:56,2018-02-15 12:59:57,0.168s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 12:59:57,2018-02-15 13:00:04,7.231s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:00:04,2018-02-15 13:00:09,5.010s,PASSED
+"Statement - btnId = ""//*[@id=""btnLoadApplication_"" + policyInfoId + """"]""",Chrome 63.0.3239.132,,2018-02-15 13:00:09,2018-02-15 13:00:09,0.002s,PASSED
+Statement - btnViewApplication = new com.kms.katalon.core.testobject.TestObject(btnViewApplication),Chrome 63.0.3239.132,,2018-02-15 13:00:09,2018-02-15 13:00:09,0.004s,PASSED
+"Statement - btnViewApplication.addProperty(""xpath"", EQUALS, btnId, true)",Chrome 63.0.3239.132,,2018-02-15 13:00:09,2018-02-15 13:00:09,0.005s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:00:09,2018-02-15 13:00:29,20.028s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:00:29,2018-02-15 13:00:36,6.857s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:00:36,2018-02-15 13:00:44,8.011s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:00:44,2018-02-15 13:00:49,5.191s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:00:49,2018-02-15 13:00:54,5.008s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:00:54,2018-02-15 13:00:59,4.809s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:00:59,2018-02-15 13:01:04,5.008s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 13:01:04,2018-02-15 13:01:04,0.234s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:04,2018-02-15 13:01:07,3.004s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:01:07,2018-02-15 13:01:07,0.173s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:07,2018-02-15 13:01:10,3.005s,PASSED
+selectOptionByIndex,Chrome 63.0.3239.132,,2018-02-15 13:01:10,2018-02-15 13:01:10,0.155s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:10,2018-02-15 13:01:13,3.006s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:01:13,2018-02-15 13:01:14,0.210s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:14,2018-02-15 13:01:17,3.005s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 13:01:17,2018-02-15 13:01:17,0.406s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:17,2018-02-15 13:01:20,3.005s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 13:01:20,2018-02-15 13:01:20,0.436s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:20,2018-02-15 13:01:23,3.005s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 13:01:23,2018-02-15 13:01:24,0.322s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:24,2018-02-15 13:01:27,3.005s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:01:27,2018-02-15 13:01:27,0.151s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:27,2018-02-15 13:01:31,4.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:01:31,2018-02-15 13:01:32,0.980s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:32,2018-02-15 13:01:36,4.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:01:36,2018-02-15 13:01:36,0.186s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:36,2018-02-15 13:01:41,5.009s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:01:41,2018-02-15 13:01:41,0.167s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:01:41,2018-02-15 13:02:01,20.028s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:02:01,2018-02-15 13:02:01,0.161s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:02:01,2018-02-15 13:02:16,15.021s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:02:16,2018-02-15 13:02:17,0.131s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:02:17,2018-02-15 13:02:19,2.003s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:02:19,2018-02-15 13:02:21,1.982s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:02:21,2018-02-15 13:02:41,20.026s,PASSED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,Chrome 63.0.3239.132,,2018-02-15 13:02:41,2018-02-15 13:07:57,5m - 15.856s,PASSED
+com.PPE.Endorsement_UW.EndorsementByUW,Chrome 63.0.3239.132,,2018-02-15 13:02:41,2018-02-15 13:07:57,5m - 15.789s,PASSED
+,,,,,,
+Test Cases/AGENT_ENDORSEMENT_REQUEST,Chrome 63.0.3239.132,Agent create an ENDORSEMENT and sent an Endorsement request for UW approval.,2018-02-15 13:07:57,2018-02-15 13:11:25,3m - 28.351s,PASSED
+com.PPE.Endorsement_Agent.EndorsementByUW,Chrome 63.0.3239.132,,2018-02-15 13:07:57,2018-02-15 13:10:41,2m - 44.664s,PASSED
+"Statement - otpQueryEND = ""SELECT TOP 1 OtpGenerated FROM PPE_ApplicationForms_trn where PolicyInfoId = "" + policyInfoId + "" Order BY ModifiedDateTime DESC""",Chrome 63.0.3239.132,,2018-02-15 13:10:41,2018-02-15 13:10:41,0.001s,PASSED
+"Statement - println(""otpQuery"" + "" "" + otpQueryEND)",Chrome 63.0.3239.132,,2018-02-15 13:10:41,2018-02-15 13:10:41,0.001s,PASSED
+com.PPE.Database_Connection.connectDB,Chrome 63.0.3239.132,Connect to DB,2018-02-15 13:10:41,2018-02-15 13:10:42,1.023s,PASSED
+Statement - recordset1 = CustomKeywords.com.PPE.Database_Connection.executeQuery(otpQueryEND),Chrome 63.0.3239.132,ExecQuery,2018-02-15 13:10:42,2018-02-15 13:10:43,0.200s,PASSED
+Statement - otpEndorsement = 0,Chrome 63.0.3239.132,,2018-02-15 13:10:43,2018-02-15 13:10:43,0.000s,PASSED
+Statement - While (recordset1.next()),Chrome 63.0.3239.132,,2018-02-15 13:10:43,2018-02-15 13:10:43,0.002s,PASSED
+"Statement - println(""otp"" + "" "" + otpEndorsement)",Chrome 63.0.3239.132,,2018-02-15 13:10:43,2018-02-15 13:10:43,0.001s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:10:43,2018-02-15 13:10:53,10.014s,PASSED
+Statement - txtOtp = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application_OR/txtfield-OTP),Chrome 63.0.3239.132,,2018-02-15 13:10:53,2018-02-15 13:10:53,0.004s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-15 13:10:53,2018-02-15 13:10:53,0.148s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:10:53,2018-02-15 13:10:54,1.002s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:10:54,2018-02-15 13:10:54,0.214s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:10:54,2018-02-15 13:10:59,5.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:10:59,2018-02-15 13:10:59,0.143s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:10:59,2018-02-15 13:11:14,15.021s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-15 13:11:14,2018-02-15 13:11:15,0.777s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-15 13:11:15,2018-02-15 13:11:25,10.015s,PASSED
+,,,,,,
+Test Cases/ENDORSEMENT_APPROVAL_UW,Chrome 63.0.3239.132,UW approving an ENDORSEMENT Request.,2018-02-15 13:11:25,2018-02-15 13:13:30,2m - 4.862s,PASSED
+com.PPE.Endorsement_Approval.EndorsementApprovedUW,Chrome 63.0.3239.132,,2018-02-15 13:11:25,2018-02-15 13:13:30,2m - 4.805s,PASSED
+,,,,,,
+Test Cases/CANCELLATION_BY_UW,Chrome 63.0.3239.132,,2018-02-15 13:13:30,2018-02-15 13:14:58,1m - 28.227s,FAILED
+com.PPE.Cancellation_UW.EndorsementByUW,Chrome 63.0.3239.132,,2018-02-15 13:13:30,2018-02-15 13:14:58,1m - 28.155s,FAILED

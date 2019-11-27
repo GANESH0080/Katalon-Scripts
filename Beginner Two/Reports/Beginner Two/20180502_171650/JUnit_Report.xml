@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Beginner Two" time="112" tests="0" failures="1" errors="0">
+   <testsuite name="Beginner Two" tests="0" failures="1" errors="0" time="112" timestamp="2018-05-02 17:16:52" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Beginner Two">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Beginner Two\\Reports\\Beginner Two\\20180502_171650"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Beginner Two\\Reports\\Beginner Two\\20180502_171650\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="c0adac4cdca845652fc4de15b8a955fc"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/PPE Login" classname="Test Cases/PPE Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)"/>
+         <system-out><![CDATA[2018-05-02 17:16:53 - [TEST_CASE][FAILED] - Test Cases/PPE Login: Test Cases/PPE Login FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)
+
+2018-05-02 17:16:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-02 17:16:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-02 17:16:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.90.102.191:8066/' successfully
+
+2018-05-02 17:17:18 - [MESSAGE][PASSED] - Navigate to 'http://13.90.102.191:8066/' successfully
+
+2018-05-02 17:17:18 - [TEST_STEP][FAILED] - setText: Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)
+
+2018-05-02 17:18:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-02 17:18:44 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)]]></system-out>
+         <system-err><![CDATA[2018-05-02 17:16:53 - [TEST_CASE][FAILED] - Test Cases/PPE Login: Test Cases/PPE Login FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-02 17:16:52 - [TEST_SUITE][FAILED] - Beginner Two: Test Cases/PPE Login FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)]]></system-out>
+      <system-err><![CDATA[2018-05-02 17:16:52 - [TEST_SUITE][FAILED] - Beginner Two: Test Cases/PPE Login FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/input_userName' (Root cause: java.lang.NullPointerException)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,,,2018-02-21 12:45:18,2018-02-21 12:45:21,3.093s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,,Agent Quote process,2018-02-21 12:45:18,2018-02-21 12:45:18,0.487s,PASSED
+,,,,,,
+Test Cases/APPLICATION_CREATION,,,2018-02-21 12:45:18,2018-02-21 12:45:19,0.818s,FAILED
+setText,,,2018-02-21 12:45:19,2018-02-21 12:45:19,0.555s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,,,2018-02-21 12:45:19,2018-02-21 12:45:20,0.300s,FAILED
+click,,,2018-02-21 12:45:20,2018-02-21 12:45:20,0.051s,FAILED
+,,,,,,
+Test Cases/AGENT_ENDORSEMENT_REQUEST,,Agent create an ENDORSEMENT and sent an Endorsement request for UW approval.,2018-02-21 12:45:20,2018-02-21 12:45:20,0.309s,FAILED
+setText,,,2018-02-21 12:45:20,2018-02-21 12:45:20,0.023s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_APPROVAL_UW,,UW approving an ENDORSEMENT Request.,2018-02-21 12:45:20,2018-02-21 12:45:20,0.280s,FAILED
+setText,,,2018-02-21 12:45:20,2018-02-21 12:45:20,0.035s,FAILED
+,,,,,,
+Test Cases/CANCELLATION_BY_UW,,,2018-02-21 12:45:20,2018-02-21 12:45:21,0.196s,FAILED
+Statement - policynumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_POLICYNUMBER)),,,2018-02-21 12:45:21,2018-02-21 12:45:21,0.039s,FAILED

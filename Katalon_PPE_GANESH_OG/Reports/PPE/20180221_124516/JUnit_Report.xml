@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="3" tests="1" failures="5" errors="0">
+   <testsuite name="PPE" tests="1" failures="5" errors="0" time="3" timestamp="2018-02-21 12:45:18" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH_OG\\Reports\\PPE\\20180221_124516"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH_OG\\Reports\\PPE\\20180221_124516\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+      </properties>
+      <testcase name="Test Cases/QUOTE_CREATION" classname="Test Cases/QUOTE_CREATION" status="PASSED">
+         <system-out><![CDATA[2018-02-21 12:45:18 - [TEST_CASE][PASSED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APPLICATION_CREATION" classname="Test Cases/APPLICATION_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-21 12:45:18 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:19 - [TEST_STEP][FAILED] - setText: Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-21 12:45:19 - [MESSAGE][FAILED] - Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-21 12:45:18 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_CREATION" classname="Test Cases/ENDORSEMENT_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-21 12:45:19 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:20 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-21 12:45:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-21 12:45:19 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AGENT_ENDORSEMENT_REQUEST" classname="Test Cases/AGENT_ENDORSEMENT_REQUEST" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-21 12:45:20 - [TEST_CASE][FAILED] - Test Cases/AGENT_ENDORSEMENT_REQUEST: Test Cases/AGENT_ENDORSEMENT_REQUEST FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:20 - [TEST_STEP][FAILED] - setText: Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:20 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-21 12:45:20 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-21 12:45:20 - [TEST_CASE][FAILED] - Test Cases/AGENT_ENDORSEMENT_REQUEST: Test Cases/AGENT_ENDORSEMENT_REQUEST FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_APPROVAL_UW" classname="Test Cases/ENDORSEMENT_APPROVAL_UW" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-21 12:45:20 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_APPROVAL_UW: Test Cases/ENDORSEMENT_APPROVAL_UW FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:20 - [TEST_STEP][FAILED] - setText: Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:20 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-21 12:45:20 - [MESSAGE][FAILED] - Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-21 12:45:20 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_APPROVAL_UW: Test Cases/ENDORSEMENT_APPROVAL_UW FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CANCELLATION_BY_UW" classname="Test Cases/CANCELLATION_BY_UW" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-21 12:45:20 - [TEST_CASE][FAILED] - Test Cases/CANCELLATION_BY_UW: Test Cases/CANCELLATION_BY_UW FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:21 - [TEST_STEP][FAILED] - Statement - policynumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_POLICYNUMBER)): Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-21 12:45:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-21 12:45:21 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-21 12:45:20 - [TEST_CASE][FAILED] - Test Cases/CANCELLATION_BY_UW: Test Cases/CANCELLATION_BY_UW FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-21 12:45:18 - [TEST_SUITE][FAILED] - PPE: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-02-21 12:45:18 - [TEST_SUITE][FAILED] - PPE: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to set text '291 Thornton St SW Atlanta, GA 30315 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

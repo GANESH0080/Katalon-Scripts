@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="253" tests="3" failures="6" errors="0">
+   <testsuite name="PPE" tests="3" failures="6" errors="0" time="253" timestamp="2018-02-21 18:18:13" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217382935.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217418642.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217450209.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217481667.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217513155.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217544709.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="32c4e916282a24f4941754fee79c3a3f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/URL Navigation/Navigate To URL" classname="Test Cases/URL Navigation/Navigate To URL" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:18:13 - [TEST_CASE][PASSED] - Test Cases/URL Navigation/Navigate To URL: Test Cases/URL Navigation/Navigate To URL
+
+2018-02-21 18:18:14 - [TEST_STEP][PASSED] - com.PPE.url_Navigation.gotoURL: com.PPE.url_Navigation.gotoURL is PASSED
+
+2018-02-21 18:18:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://test.cogitate.us/PPE.Test/'
+
+2018-02-21 18:18:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-21 18:18:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-21 18:18:23 - [MESSAGE][PASSED] - com.PPE.url_Navigation.gotoURL is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login In PPE Application/Incorrect Attempt for Login" classname="Test Cases/Login In PPE Application/Incorrect Attempt for Login" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:18:23 - [TEST_CASE][PASSED] - Test Cases/Login In PPE Application/Incorrect Attempt for Login: Test Cases/Login In PPE Application/Incorrect Attempt for Login
+
+2018-02-21 18:18:23 - [TEST_STEP][PASSED] - com.PPE.IncorrectLogin.login: com.PPE.IncorrectLogin.login is PASSED
+
+2018-02-21 18:18:23 - [MESSAGE][PASSED] - Text '125634' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:18:24 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:18:31 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:18:31 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:18:31 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:18:38 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:18:38 - [MESSAGE][PASSED] - Text 'ih.jbutler' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:18:38 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:18:45 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:18:45 - [MESSAGE][PASSED] - Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:18:45 - [MESSAGE][PASSED] - Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:18:52 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:18:52 - [MESSAGE][PASSED] - Text 'ih.william' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:18:52 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:18:59 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:18:59 - [MESSAGE][PASSED] - com.PPE.IncorrectLogin.login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login In PPE Application/Login With Correct Credentials" classname="Test Cases/Login In PPE Application/Login With Correct Credentials" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:18:59 - [TEST_CASE][PASSED] - Test Cases/Login In PPE Application/Login With Correct Credentials: Test Cases/Login In PPE Application/Login With Correct Credentials
+
+2018-02-21 18:18:59 - [TEST_STEP][PASSED] - com.PPE.Login.correctlogin: com.PPE.Login.correctlogin is PASSED
+
+2018-02-21 18:18:59 - [MESSAGE][PASSED] - Text 'ih.va1' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:18:59 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:19:03 - [MESSAGE][PASSED] - com.PPE.Login.correctlogin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Quote Creation/Creating Quote" classname="Test Cases/Quote Creation/Creating Quote" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id=&quot;ddlPropertyType&quot;]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:19:03 - [TEST_CASE][FAILED] - Test Cases/Quote Creation/Creating Quote: Test Cases/Quote Creation/Creating Quote FAILED because (of) Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - Statement - propertyDataRowCounter = 0: null
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - Statement - configDataRowCounter = 0: null
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File): Test data is internal data, reading internal data
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - Statement - If (genericDATA.internallyGetValue("STATE", configDataRowCounter) == "GA"): null
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - Statement - Else: Delayed 6 second(s)
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - setText: Text '1812 Arlington St' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-02-21 18:19:03 - [MESSAGE][PASSED] - Text '1812 Arlington St' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-02-21 18:19:03 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-02-21 18:19:09 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:19:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-02-21 18:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-02-21 18:19:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-21 18:19:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-21 18:19:11 - [TEST_STEP][FAILED] - com.PPE.QuotePropertyDataSelection.QuoteCreation: Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)
+
+2018-02-21 18:19:43 - [MESSAGE][FAILED] - Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217382935.png]]
+
+2018-02-21 18:19:43 - [MESSAGE][FAILED] - Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:19:03 - [TEST_CASE][FAILED] - Test Cases/Quote Creation/Creating Quote: Test Cases/Quote Creation/Creating Quote FAILED because (of) Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Application Creation/Creating an Application" classname="Test Cases/Application Creation/Creating an Application" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_TOAPPLICATION' located by 'By.xpath: //*[@id=&quot;btnToApplication&quot;]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:19:43 - [TEST_CASE][FAILED] - Test Cases/Application Creation/Creating an Application: Test Cases/Application Creation/Creating an Application FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_TOAPPLICATION' located by 'By.xpath: //*[@id="btnToApplication"]' not found)
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - propertyDataRowCounter = 0: null
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - configDataRowCounter = 0: null
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File): Test data is internal data, reading internal data
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address): Finding Test Object with id 'Object Repository/Endorsement_OR/get_Address'
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, "value"): Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: ''
+
+2018-02-21 18:19:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: ''
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - println(propertyaddress): null
+
+2018-02-21 18:19:43 - [TEST_STEP][PASSED] - Statement - propertyaddress = propertyaddress: null
+
+2018-02-21 18:19:43 - [TEST_STEP][FAILED] - com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage: Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_TOAPPLICATION' located by 'By.xpath: //*[@id="btnToApplication"]' not found)
+
+2018-02-21 18:19:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:20:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_TOAPPLICATION' located by 'By.xpath: //*[@id="btnToApplication"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217418642.png]]
+
+2018-02-21 18:20:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_TOAPPLICATION' located by 'By.xpath: //*[@id="btnToApplication"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:19:43 - [TEST_CASE][FAILED] - Test Cases/Application Creation/Creating an Application: Test Cases/Application Creation/Creating an Application FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_TOAPPLICATION' located by 'By.xpath: //*[@id="btnToApplication"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UW Endorsement/UW END" classname="Test Cases/UW Endorsement/UW END" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id=&quot;btnAdvanceFilter&quot;]/label' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:20:19 - [TEST_CASE][FAILED] - Test Cases/UW Endorsement/UW END: Test Cases/UW Endorsement/UW END FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-02-21 18:20:19 - [TEST_STEP][FAILED] - com.PPE.Endorsement_UW.EndorsementByUW: Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-02-21 18:20:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217450209.png]]
+
+2018-02-21 18:20:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:20:19 - [TEST_CASE][FAILED] - Test Cases/UW Endorsement/UW END: Test Cases/UW Endorsement/UW END FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agent Endorsment Req/Agent END" classname="Test Cases/Agent Endorsment Req/Agent END" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id=&quot;txtUserName&quot;]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:20:50 - [TEST_CASE][FAILED] - Test Cases/Agent Endorsment Req/Agent END: Test Cases/Agent Endorsment Req/Agent END FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:20:50 - [TEST_STEP][FAILED] - com.PPE.Endorsement_Agent.EndorsementByUW: Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:21:21 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217481667.png]]
+
+2018-02-21 18:21:21 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:20:50 - [TEST_CASE][FAILED] - Test Cases/Agent Endorsment Req/Agent END: Test Cases/Agent Endorsment Req/Agent END FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Endorsement Approval/END Appproval" classname="Test Cases/Endorsement Approval/END Appproval" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id=&quot;txtUserName&quot;]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:21:22 - [TEST_CASE][FAILED] - Test Cases/Endorsement Approval/END Appproval: Test Cases/Endorsement Approval/END Appproval FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:21:22 - [TEST_STEP][FAILED] - com.PPE.Endorsement_Approval.EndorsementApprovedUW: Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:21:53 - [MESSAGE][FAILED] - Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217513155.png]]
+
+2018-02-21 18:21:53 - [MESSAGE][FAILED] - Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:21:22 - [TEST_CASE][FAILED] - Test Cases/Endorsement Approval/END Appproval: Test Cases/Endorsement Approval/END Appproval FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UW Cancellation/UW CAN" classname="Test Cases/UW Cancellation/UW CAN" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id=&quot;divApplicationList&quot;]/tr/td[6]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:21:53 - [TEST_CASE][FAILED] - Test Cases/UW Cancellation/UW CAN: Test Cases/UW Cancellation/UW CAN FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+
+2018-02-21 18:21:53 - [TEST_STEP][FAILED] - com.PPE.Cancellation_UW.CancellationByUW: Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+
+2018-02-21 18:22:25 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_181811\\1519217544709.png]]
+
+2018-02-21 18:22:25 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:21:53 - [TEST_CASE][FAILED] - Test Cases/UW Cancellation/UW CAN: Test Cases/UW Cancellation/UW CAN FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-21 18:18:13 - [TEST_SUITE][FAILED] - PPE: Test Cases/Quote Creation/Creating Quote FAILED because (of) Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-21 18:18:13 - [TEST_SUITE][FAILED] - PPE: Test Cases/Quote Creation/Creating Quote FAILED because (of) Unable to select option by index '1' of object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/drp_PROPERTY_TYPE' located by 'By.xpath: //*[@id="ddlPropertyType"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

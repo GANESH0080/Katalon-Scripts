@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="992" tests="4" failures="0" errors="0">
+   <testsuite name="PPE" tests="4" failures="0" errors="0" time="992" timestamp="2018-01-29 20:07:01" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180129_200700"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180129_200700\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="ec0257b9426707083db9493a265af2b6"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/QUOTE_CREATION" classname="Test Cases/QUOTE_CREATION" status="PASSED">
+         <system-out><![CDATA[2018-01-29 20:07:02 - [TEST_CASE][PASSED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION
+
+2018-01-29 20:07:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://13.90.102.191:8066'
+
+2018-01-29 20:07:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://13.90.102.191:8066'
+
+2018-01-29 20:07:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-29 20:07:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-29 20:07:11 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-29 20:07:11 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-29 20:07:11 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-29 20:07:11 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-29 20:07:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-29 20:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-29 20:07:38 - [TEST_STEP][PASSED] - setText: Text '572 Richmond St Macon, GA 31206 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-01-29 20:07:39 - [MESSAGE][PASSED] - Text '572 Richmond St Macon, GA 31206 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-01-29 20:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-01-29 20:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-01-29 20:07:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-29 20:07:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-29 20:07:57 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-29 20:07:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-29 20:07:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:07:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:07:57 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-29 20:07:58 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-29 20:07:58 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:07:58 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:07:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:08:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:08:00 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:08:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:08:00 - [TEST_STEP][PASSED] - setText: Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:08:00 - [MESSAGE][PASSED] - Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:08:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-29 20:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-29 20:08:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-29 20:08:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-29 20:08:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-01-29 20:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-01-29 20:08:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-29 20:08:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-29 20:08:08 - [TEST_STEP][PASSED] - setText: Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-01-29 20:08:08 - [MESSAGE][PASSED] - Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-01-29 20:08:08 - [TEST_STEP][PASSED] - setText: Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-01-29 20:08:09 - [MESSAGE][PASSED] - Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-01-29 20:08:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:08:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:08:14 - [TEST_STEP][PASSED] - setText: Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-01-29 20:08:14 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-01-29 20:08:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:08:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:08:19 - [TEST_STEP][PASSED] - setText: Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-01-29 20:08:19 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-01-29 20:08:19 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:08:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:08:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-01-29 20:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-01-29 20:08:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-29 20:08:30 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-29 20:08:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:08:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on
+
+2018-01-29 20:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APPLICATION_CREATION" classname="Test Cases/APPLICATION_CREATION" status="PASSED">
+         <system-out><![CDATA[2018-01-29 20:08:35 - [TEST_CASE][PASSED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION
+
+2018-01-29 20:08:35 - [TEST_STEP][PASSED] - setText: Text '530 Moreland Ave Macon, GA 31206 USA' is set on object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE'
+
+2018-01-29 20:08:36 - [MESSAGE][PASSED] - Text '530 Moreland Ave Macon, GA 31206 USA' is set on object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE'
+
+2018-01-29 20:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SEARCH_ADDRESS_QUOTE_PAGE' is clicked on
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SEARCH_ADDRESS_QUOTE_PAGE' is clicked on
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address): Finding Test Object with id 'Object Repository/Endorsement_OR/get_Address'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, "value"): Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '530 Moreland Ave, Macon, GA 31206, USA'
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '530 Moreland Ave, Macon, GA 31206, USA'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - Statement - println(propertyaddress): null
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - Statement - propertyaddress = propertyaddress: null
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - setText: Text '2000' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:09:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:09:05 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:09:06 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-29 20:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-29 20:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-29 20:09:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-29 20:09:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-29 20:09:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-01-29 20:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-01-29 20:09:24 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:09:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:09:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-01-29 20:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-01-29 20:09:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:09:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:09:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:09:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:09:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' is clicked on
+
+2018-01-29 20:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' is clicked on
+
+2018-01-29 20:09:47 - [TEST_STEP][PASSED] - setText: Text 'Smith' is set on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME'
+
+2018-01-29 20:09:47 - [MESSAGE][PASSED] - Text 'Smith' is set on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME'
+
+2018-01-29 20:09:47 - [TEST_STEP][PASSED] - setText: Text 'Racher' is set on object 'Object Repository/Application_OR/txtfield_INSURED_MIDDLENAME'
+
+2018-01-29 20:09:47 - [MESSAGE][PASSED] - Text 'Racher' is set on object 'Object Repository/Application_OR/txtfield_INSURED_MIDDLENAME'
+
+2018-01-29 20:09:47 - [TEST_STEP][PASSED] - setText: Text 'Lastin' is set on object 'Object Repository/Application_OR/txtfield_INSURED_LASTNAME'
+
+2018-01-29 20:09:48 - [MESSAGE][PASSED] - Text 'Lastin' is set on object 'Object Repository/Application_OR/txtfield_INSURED_LASTNAME'
+
+2018-01-29 20:09:48 - [TEST_STEP][PASSED] - setText: Text '09/10/1999' is set on object 'Object Repository/Application_OR/txtfield_INSURED_DOB'
+
+2018-01-29 20:09:48 - [MESSAGE][PASSED] - Text '09/10/1999' is set on object 'Object Repository/Application_OR/txtfield_INSURED_DOB'
+
+2018-01-29 20:09:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:09:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:09:53 - [TEST_STEP][PASSED] - setText: Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Application_OR/txtfield_INSURED_EMAIL'
+
+2018-01-29 20:09:53 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Application_OR/txtfield_INSURED_EMAIL'
+
+2018-01-29 20:09:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:09:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:09:58 - [TEST_STEP][PASSED] - setText: Text '9768180080' is set on object 'Object Repository/Application_OR/txtfield_INSURED_CONTACTNUMBER'
+
+2018-01-29 20:09:58 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Application_OR/txtfield_INSURED_CONTACTNUMBER'
+
+2018-01-29 20:09:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:10:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:10:03 - [TEST_STEP][PASSED] - Statement - hdnPolicyInfoId = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Generic_OR/hdnPolicyInfoId): Finding Test Object with id 'Object Repository/Generic_OR/hdnPolicyInfoId'
+
+2018-01-29 20:10:03 - [TEST_STEP][PASSED] - Statement - policyInfoid = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(hdnPolicyInfoId, "value"): Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3535'
+
+2018-01-29 20:10:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3535'
+
+2018-01-29 20:10:03 - [TEST_STEP][PASSED] - Statement - policyInfoId = policyInfoid: null
+
+2018-01-29 20:10:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_POLICYHOLDER_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_POLICYHOLDER_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-29 20:10:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-29 20:10:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE' is clicked on
+
+2018-01-29 20:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE' is clicked on
+
+2018-01-29 20:10:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:10:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:10:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE'
+
+2018-01-29 20:10:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE'
+
+2018-01-29 20:10:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:10:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:10:11 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Application_OR/drp_FOUNDATIONTYPE_PROPERTYPAGE'
+
+2018-01-29 20:10:11 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Application_OR/drp_FOUNDATIONTYPE_PROPERTYPAGE'
+
+2018-01-29 20:10:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:10:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:10:13 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [7] are selected on object 'Object Repository/Application_OR/drp_HEATINGTYPE_PROPERTYPAGE'
+
+2018-01-29 20:10:13 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Application_OR/drp_HEATINGTYPE_PROPERTYPAGE'
+
+2018-01-29 20:10:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:10:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:10:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:19 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:10:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:10:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_ROOFAGE_POPUP' is clicked on
+
+2018-01-29 20:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ROOFAGE_POPUP' is clicked on
+
+2018-01-29 20:10:23 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:10:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-29 20:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-29 20:10:27 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:10:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:10:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-29 20:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-29 20:10:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:10:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:10:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:10:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:10:43 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Application_OR/chkbx_AGREEMENT' is checked
+
+2018-01-29 20:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Application_OR/chkbx_AGREEMENT' is checked
+
+2018-01-29 20:10:43 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:10:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:10:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-29 20:10:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:10:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:10:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' is clicked on
+
+2018-01-29 20:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' is clicked on
+
+2018-01-29 20:11:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:11:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:11:18 - [TEST_STEP][PASSED] - Statement - getInsuredName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application_OR/get_INSUREDNAME_APPLICATION FORMSUMMARY)): Text of object 'Object Repository/Application_OR/get_INSUREDNAME_APPLICATION FORMSUMMARY' is: 'Smith Racher Lastin'
+
+2018-01-29 20:11:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Application_OR/get_INSUREDNAME_APPLICATION FORMSUMMARY' is: 'Smith Racher Lastin'
+
+2018-01-29 20:11:18 - [TEST_STEP][PASSED] - Statement - println(getInsuredName): null
+
+2018-01-29 20:11:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:11:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:11:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:11:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:11:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:11:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:11:33 - [TEST_STEP][PASSED] - setText: Text 'Smith Racher Lastin' is set on object 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE'
+
+2018-01-29 20:11:33 - [MESSAGE][PASSED] - Text 'Smith Racher Lastin' is set on object 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE'
+
+2018-01-29 20:11:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:11:33 - [TEST_STEP][PASSED] - Statement - otpQuery = "SELECT TOP 1 OtpGenerated FROM PPE_ApplicationForms_trn where PolicyInfoId = " + policyInfoId + " Order BY ModifiedDateTime DESC": null
+
+2018-01-29 20:11:33 - [TEST_STEP][PASSED] - Statement - println("otpQuery" + " " + otpQuery): null
+
+2018-01-29 20:11:33 - [TEST_STEP][PASSED] - com.PPE.Database_Connection.connectDB: com.PPE.Database_Connection.connectDB is PASSED
+
+2018-01-29 20:11:46 - [MESSAGE][PASSED] - com.PPE.Database_Connection.connectDB is PASSED
+
+2018-01-29 20:11:46 - [TEST_STEP][PASSED] - Statement - recordset = CustomKeywords.com.PPE.Database_Connection.executeQuery(otpQuery): com.PPE.Database_Connection.executeQuery is PASSED
+
+2018-01-29 20:11:47 - [MESSAGE][PASSED] - com.PPE.Database_Connection.executeQuery is PASSED
+
+2018-01-29 20:11:47 - [TEST_STEP][PASSED] - Statement - otp = 0: null
+
+2018-01-29 20:11:47 - [TEST_STEP][PASSED] - Statement - While (recordset.next()): null
+
+2018-01-29 20:11:47 - [TEST_STEP][PASSED] - Statement - otp = recordset.getObject("OtpGenerated"): null
+
+2018-01-29 20:11:47 - [TEST_STEP][PASSED] - Statement - println("otp" + " " + otp): null
+
+2018-01-29 20:11:47 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:11:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:11:57 - [TEST_STEP][PASSED] - Statement - txtOtp = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application_OR/txtfield-OTP): Finding Test Object with id 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-01-29 20:11:57 - [TEST_STEP][PASSED] - setText: Text '4636' is set on object 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-01-29 20:11:57 - [MESSAGE][PASSED] - Text '4636' is set on object 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-01-29 20:11:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-29 20:11:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-29 20:11:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OTP_VERIFY' is clicked on
+
+2018-01-29 20:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OTP_VERIFY' is clicked on
+
+2018-01-29 20:11:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_AGENT_SIGNATURE' is clicked on
+
+2018-01-29 20:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_AGENT_SIGNATURE' is clicked on
+
+2018-01-29 20:12:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:12:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:12:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE' is clicked on
+
+2018-01-29 20:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE' is clicked on
+
+2018-01-29 20:12:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:12:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:12:07 - [TEST_STEP][PASSED] - setText: Text 'clement helms' is set on object 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE'
+
+2018-01-29 20:12:07 - [MESSAGE][PASSED] - Text 'clement helms' is set on object 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE'
+
+2018-01-29 20:12:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:12:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:12:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_AGENT_SIGNATURE' is clicked on
+
+2018-01-29 20:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_AGENT_SIGNATURE' is clicked on
+
+2018-01-29 20:12:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' is clicked on
+
+2018-01-29 20:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' is clicked on
+
+2018-01-29 20:12:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtfield_SURPLUSLINE_FORM_TEXT' is clicked on
+
+2018-01-29 20:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtfield_SURPLUSLINE_FORM_TEXT' is clicked on
+
+2018-01-29 20:12:21 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/Application_OR/txtfield_SURPLUSLINE_FORM_TEXT'
+
+2018-01-29 20:12:21 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/Application_OR/txtfield_SURPLUSLINE_FORM_TEXT'
+
+2018-01-29 20:12:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_SURPLUSLINE' is clicked on
+
+2018-01-29 20:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_SURPLUSLINE' is clicked on
+
+2018-01-29 20:12:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_FOR_UW_APPROVAL' is clicked on
+
+2018-01-29 20:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_FOR_UW_APPROVAL' is clicked on
+
+2018-01-29 20:12:35 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-01-29 20:12:43 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-01-29 20:12:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_LOGOUT' is clicked on
+
+2018-01-29 20:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_LOGOUT' is clicked on
+
+2018-01-29 20:12:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:48 - [TEST_STEP][PASSED] - setText: Text 'ih.william' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-29 20:12:49 - [MESSAGE][PASSED] - Text 'ih.william' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-29 20:12:49 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-29 20:12:49 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-29 20:12:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-29 20:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-29 20:12:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:12:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:12:56 - [TEST_STEP][PASSED] - Statement - btnId = "//*[@id="btnLoadApplication_" + policyInfoId + ""]": null
+
+2018-01-29 20:12:56 - [TEST_STEP][PASSED] - Statement - btnViewApplication = new com.kms.katalon.core.testobject.TestObject(btnViewApplication): null
+
+2018-01-29 20:12:56 - [TEST_STEP][PASSED] - Statement - btnViewApplication.addProperty("xpath", EQUALS, btnId, true): null
+
+2018-01-29 20:12:56 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-01-29 20:13:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-01-29 20:13:17 - [TEST_STEP][PASSED] - click: Object: 'btnViewApplication' is clicked on
+
+2018-01-29 20:13:19 - [MESSAGE][PASSED] - Object: 'btnViewApplication' is clicked on
+
+2018-01-29 20:13:19 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-01-29 20:13:27 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-01-29 20:13:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_DOWNLOAD_AFS_UW' is clicked on
+
+2018-01-29 20:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_DOWNLOAD_AFS_UW' is clicked on
+
+2018-01-29 20:13:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:13:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:13:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_GENERATE_FORMS' is clicked on
+
+2018-01-29 20:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_GENERATE_FORMS' is clicked on
+
+2018-01-29 20:13:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:13:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:13:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_REQUEST_FOR_BIND' is clicked on
+
+2018-01-29 20:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_REQUEST_FOR_BIND' is clicked on
+
+2018-01-29 20:13:47 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-01-29 20:14:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-01-29 20:14:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_VIEW_POLICY_FORMS' is clicked on
+
+2018-01-29 20:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_VIEW_POLICY_FORMS' is clicked on
+
+2018-01-29 20:14:07 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-29 20:14:22 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-01-29 20:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_UW_APPLICATION_STATUS_MENU' is clicked on
+
+2018-01-29 20:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_UW_APPLICATION_STATUS_MENU' is clicked on
+
+2018-01-29 20:14:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:14:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:14:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_CONFIRMATION' is clicked on
+
+2018-01-29 20:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_CONFIRMATION' is clicked on
+
+2018-01-29 20:14:25 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-01-29 20:14:45 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_CREATION" classname="Test Cases/ENDORSEMENT_CREATION" status="PASSED">
+         <system-out><![CDATA[2018-01-29 20:14:45 - [TEST_CASE][PASSED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION
+
+2018-01-29 20:14:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' is clicked on
+
+2018-01-29 20:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' is clicked on
+
+2018-01-29 20:14:45 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:14:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:14:49 - [TEST_STEP][PASSED] - setText: Text '530 Moreland Ave, Macon, GA 31206, USA' is set on object 'Object Repository/Endorsement_OR/txtfield_AdvanceFilter_PROPERTY_ADDRESS'
+
+2018-01-29 20:14:50 - [MESSAGE][PASSED] - Text '530 Moreland Ave, Macon, GA 31206, USA' is set on object 'Object Repository/Endorsement_OR/txtfield_AdvanceFilter_PROPERTY_ADDRESS'
+
+2018-01-29 20:14:50 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-29 20:15:05 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-01-29 20:15:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_APPLY_Advance_Filter' is clicked on
+
+2018-01-29 20:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_APPLY_Advance_Filter' is clicked on
+
+2018-01-29 20:15:05 - [TEST_STEP][PASSED] - delay: Delayed 18 second(s)
+
+2018-01-29 20:15:23 - [MESSAGE][PASSED] - Delayed 18 second(s)
+
+2018-01-29 20:15:23 - [TEST_STEP][PASSED] - Statement - policynumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_POLICYNUMBER)): Text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' is: 'BCIHGA1800124'
+
+2018-01-29 20:15:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' is: 'BCIHGA1800124'
+
+2018-01-29 20:15:23 - [TEST_STEP][PASSED] - Statement - println(policynumber): null
+
+2018-01-29 20:15:23 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:15:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:15:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_ENDORSEMENT_MENU' is clicked on
+
+2018-01-29 20:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_ENDORSEMENT_MENU' is clicked on
+
+2018-01-29 20:15:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:15:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:15:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_YES_CONFIRMATION_ENDORSEMENT' is clicked on
+
+2018-01-29 20:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_YES_CONFIRMATION_ENDORSEMENT' is clicked on
+
+2018-01-29 20:15:37 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:15:43 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:15:43 - [TEST_STEP][PASSED] - setText: Text 'BCIHGA1800124' is set on object 'Object Repository/Endorsement_OR/txtfield_POLICYNUMBER_FOR_ENDORSEMENT'
+
+2018-01-29 20:15:44 - [MESSAGE][PASSED] - Text 'BCIHGA1800124' is set on object 'Object Repository/Endorsement_OR/txtfield_POLICYNUMBER_FOR_ENDORSEMENT'
+
+2018-01-29 20:15:44 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:15:50 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:15:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_SEARCH_FOR_ENDORSEMENT' is clicked on
+
+2018-01-29 20:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_SEARCH_FOR_ENDORSEMENT' is clicked on
+
+2018-01-29 20:15:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:16:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:16:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_ENDORSE_UW' is clicked on
+
+2018-01-29 20:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_ENDORSE_UW' is clicked on
+
+2018-01-29 20:16:02 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:16:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:16:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_EDIT_APPLICANTINFO_UW' is clicked on
+
+2018-01-29 20:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_EDIT_APPLICANTINFO_UW' is clicked on
+
+2018-01-29 20:16:08 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:16:15 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:16:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:16:15 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:16:21 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:16:21 - [TEST_STEP][PASSED] - setText: Text 'James' is set on object 'Object Repository/Endorsement_OR/txtfield_PRIFIRSTNAME_UW'
+
+2018-01-29 20:16:21 - [MESSAGE][PASSED] - Text 'James' is set on object 'Object Repository/Endorsement_OR/txtfield_PRIFIRSTNAME_UW'
+
+2018-01-29 20:16:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:16:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:16:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_UPDATE_APPLICANTINFO_UW' is clicked on
+
+2018-01-29 20:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_UPDATE_APPLICANTINFO_UW' is clicked on
+
+2018-01-29 20:16:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:16:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:16:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:16:25 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:16:31 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:16:31 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:16:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:16:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:16:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:16:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_EDIT_COVERAGE_UW' is clicked on
+
+2018-01-29 20:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_EDIT_COVERAGE_UW' is clicked on
+
+2018-01-29 20:16:34 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:16:40 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:16:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/drp_SETTLEMENTTYPE_UW' is clicked on
+
+2018-01-29 20:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/drp_SETTLEMENTTYPE_UW' is clicked on
+
+2018-01-29 20:16:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ACV' are selected in object 'Object Repository/Endorsement_OR/drp_SETTLEMENTTYPE_UW' 
+
+2018-01-29 20:16:41 - [MESSAGE][PASSED] - All options with value 'ACV' are selected in object 'Object Repository/Endorsement_OR/drp_SETTLEMENTTYPE_UW' 
+
+2018-01-29 20:16:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_UPDATE_COVERAGE_UW' is clicked on
+
+2018-01-29 20:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_UPDATE_COVERAGE_UW' is clicked on
+
+2018-01-29 20:16:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:16:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:16:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:16:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:16:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:16:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/txtfield_ENDORSEMENTEFFECTIVEDATE_UW' is clicked on
+
+2018-01-29 20:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/txtfield_ENDORSEMENTEFFECTIVEDATE_UW' is clicked on
+
+2018-01-29 20:16:45 - [TEST_STEP][PASSED] - Statement - use(groovy.time.TimeCategory, { -> ... }): null
+
+2018-01-29 20:16:45 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:16:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:16:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_EDIT_PROPERTY_UW' is clicked on
+
+2018-01-29 20:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_EDIT_PROPERTY_UW' is clicked on
+
+2018-01-29 20:16:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:16:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:16:47 - [TEST_STEP][PASSED] - setText: Text '1970' is set on object 'Object Repository/Endorsement_OR/txtfield_HOME_BUILD_ENDORSEMENT_UW'
+
+2018-01-29 20:16:48 - [MESSAGE][PASSED] - Text '1970' is set on object 'Object Repository/Endorsement_OR/txtfield_HOME_BUILD_ENDORSEMENT_UW'
+
+2018-01-29 20:16:48 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:16:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:16:52 - [TEST_STEP][PASSED] - setText: Text '500000' is set on object 'Object Repository/Endorsement_OR/txtfield_EXIMATED_VALUATION_UW'
+
+2018-01-29 20:16:52 - [MESSAGE][PASSED] - Text '500000' is set on object 'Object Repository/Endorsement_OR/txtfield_EXIMATED_VALUATION_UW'
+
+2018-01-29 20:16:52 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:16:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:16:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/drp_CONSTRUCTION_TYPE_UW' is clicked on
+
+2018-01-29 20:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/drp_CONSTRUCTION_TYPE_UW' is clicked on
+
+2018-01-29 20:16:56 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Endorsement_OR/drp_CONSTRUCTION_TYPE_UW'
+
+2018-01-29 20:16:56 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Endorsement_OR/drp_CONSTRUCTION_TYPE_UW'
+
+2018-01-29 20:16:56 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_UPDATE_ENDORSEMENT_PROPERTY_UW' is clicked on
+
+2018-01-29 20:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_UPDATE_ENDORSEMENT_PROPERTY_UW' is clicked on
+
+2018-01-29 20:17:01 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:17:05 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_GENERATE_FORMS_UW' is clicked on
+
+2018-01-29 20:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_GENERATE_FORMS_UW' is clicked on
+
+2018-01-29 20:17:09 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_APPROVE_ENDORSEMENT' is clicked on
+
+2018-01-29 20:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_APPROVE_ENDORSEMENT' is clicked on
+
+2018-01-29 20:17:13 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:17:19 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:17:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/chkbx_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/chkbx_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:19 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/chkbx_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/chkbx_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:23 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_FILLDATA_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_FILLDATA_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:27 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:17:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:17:37 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/Endorsement_OR/txtfield_HOMEOWNER_END_FORM'
+
+2018-01-29 20:17:38 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/Endorsement_OR/txtfield_HOMEOWNER_END_FORM'
+
+2018-01-29 20:17:38 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_SUBMIT_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_SUBMIT_HOMEOWNER_END_FORM' is clicked on
+
+2018-01-29 20:17:42 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_VIEW_DRAFT_END' is clicked on
+
+2018-01-29 20:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_VIEW_DRAFT_END' is clicked on
+
+2018-01-29 20:17:46 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:17:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:17:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_APPROVE_ENDORSEMENT' is clicked on
+
+2018-01-29 20:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_APPROVE_ENDORSEMENT' is clicked on
+
+2018-01-29 20:17:50 - [TEST_STEP][PASSED] - delay: Delayed 100 second(s)
+
+2018-01-29 20:19:30 - [MESSAGE][PASSED] - Delayed 100 second(s)
+
+2018-01-29 20:19:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_LOGOUT_UW' is clicked on
+
+2018-01-29 20:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_LOGOUT_UW' is clicked on
+
+2018-01-29 20:19:31 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-29 20:19:46 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AGENT_ENDORSEMENT_REQUEST" classname="Test Cases/AGENT_ENDORSEMENT_REQUEST" status="PASSED">
+         <system-out><![CDATA[2018-01-29 20:19:46 - [TEST_CASE][PASSED] - Test Cases/AGENT_ENDORSEMENT_REQUEST: Test Cases/AGENT_ENDORSEMENT_REQUEST
+
+2018-01-29 20:19:46 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-29 20:19:46 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-29 20:19:46 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-29 20:19:47 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-29 20:19:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-29 20:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-29 20:19:49 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-29 20:20:04 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-01-29 20:20:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_UW_APPLICATION_STATUS_MENU' is clicked on
+
+2018-01-29 20:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_UW_APPLICATION_STATUS_MENU' is clicked on
+
+2018-01-29 20:20:05 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-01-29 20:20:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-01-29 20:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' is clicked on
+
+2018-01-29 20:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' is clicked on
+
+2018-01-29 20:20:25 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:20:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:20:29 - [TEST_STEP][PASSED] - setText: Text '530 Moreland Ave, Macon, GA 31206, USA' is set on object 'Object Repository/Endorsement_OR/txtfield_AdvanceFilter_PROPERTY_ADDRESS'
+
+2018-01-29 20:20:29 - [MESSAGE][PASSED] - Text '530 Moreland Ave, Macon, GA 31206, USA' is set on object 'Object Repository/Endorsement_OR/txtfield_AdvanceFilter_PROPERTY_ADDRESS'
+
+2018-01-29 20:20:29 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-29 20:20:44 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-01-29 20:20:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_APPLY_Advance_Filter' is clicked on
+
+2018-01-29 20:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_APPLY_Advance_Filter' is clicked on
+
+2018-01-29 20:20:44 - [TEST_STEP][PASSED] - delay: Delayed 18 second(s)
+
+2018-01-29 20:21:02 - [MESSAGE][PASSED] - Delayed 18 second(s)
+
+2018-01-29 20:21:02 - [TEST_STEP][PASSED] - Statement - policynumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ENDORSEMENT_AGENT_OR/get_POLICYNUMBER)): Text of object 'Object Repository/ENDORSEMENT_AGENT_OR/get_POLICYNUMBER' is: 'BCIHGA1800124'
+
+2018-01-29 20:21:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/ENDORSEMENT_AGENT_OR/get_POLICYNUMBER' is: 'BCIHGA1800124'
+
+2018-01-29 20:21:03 - [TEST_STEP][PASSED] - Statement - println(policynumber): null
+
+2018-01-29 20:21:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:21:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_ENDORSEMENT_MENU' is clicked on
+
+2018-01-29 20:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_ENDORSEMENT_MENU' is clicked on
+
+2018-01-29 20:21:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:21:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:21:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_YES_CONFIRMATION_ENDORSEMENT' is clicked on
+
+2018-01-29 20:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_YES_CONFIRMATION_ENDORSEMENT' is clicked on
+
+2018-01-29 20:21:22 - [TEST_STEP][PASSED] - setText: Text 'BCIHGA1800124' is set on object 'Object Repository/Endorsement_OR/txtfield_POLICYNUMBER_FOR_ENDORSEMENT'
+
+2018-01-29 20:21:22 - [MESSAGE][PASSED] - Text 'BCIHGA1800124' is set on object 'Object Repository/Endorsement_OR/txtfield_POLICYNUMBER_FOR_ENDORSEMENT'
+
+2018-01-29 20:21:22 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:21:28 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:21:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_SEARCH_FOR_ENDORSEMENT' is clicked on
+
+2018-01-29 20:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_SEARCH_FOR_ENDORSEMENT' is clicked on
+
+2018-01-29 20:21:33 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:21:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:21:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_ENDORSE_UW' is clicked on
+
+2018-01-29 20:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_ENDORSE_UW' is clicked on
+
+2018-01-29 20:21:45 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-29 20:21:51 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-29 20:21:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_EDIT_COVERAGE_UW' is clicked on
+
+2018-01-29 20:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_EDIT_COVERAGE_UW' is clicked on
+
+2018-01-29 20:21:51 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:21:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ENDORSEMENT_AGENT_OR/drp_PERSONAL_PROPERTY' is clicked on
+
+2018-01-29 20:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ENDORSEMENT_AGENT_OR/drp_PERSONAL_PROPERTY' is clicked on
+
+2018-01-29 20:21:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:21:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:21:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '35' are selected in object 'Object Repository/ENDORSEMENT_AGENT_OR/drp_PERSONAL_PROPERTY' 
+
+2018-01-29 20:21:58 - [MESSAGE][PASSED] - All options with value '35' are selected in object 'Object Repository/ENDORSEMENT_AGENT_OR/drp_PERSONAL_PROPERTY' 
+
+2018-01-29 20:21:58 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:22:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:22:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_UPDATE_COVERAGE_UW' is clicked on
+
+2018-01-29 20:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_UPDATE_COVERAGE_UW' is clicked on
+
+2018-01-29 20:22:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:22:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:22:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn_EDIT_CLAIM_Details' is clicked on
+
+2018-01-29 20:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn_EDIT_CLAIM_Details' is clicked on
+
+2018-01-29 20:22:02 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:22:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:22:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ENDORSEMENT_AGENT_OR/drp_NUMOFCLAIMS' is clicked on
+
+2018-01-29 20:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ENDORSEMENT_AGENT_OR/drp_NUMOFCLAIMS' is clicked on
+
+2018-01-29 20:22:07 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:22:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:22:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/ENDORSEMENT_AGENT_OR/drp_NUMOFCLAIMS' 
+
+2018-01-29 20:22:11 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/ENDORSEMENT_AGENT_OR/drp_NUMOFCLAIMS' 
+
+2018-01-29 20:22:11 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:22:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:22:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn-UPDATE_NUMOFCLAIMS' is clicked on
+
+2018-01-29 20:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn-UPDATE_NUMOFCLAIMS' is clicked on
+
+2018-01-29 20:22:15 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:22:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:22:19 - [TEST_STEP][PASSED] - setText: Text '01/03/2017' is set on object 'Object Repository/ENDORSEMENT_AGENT_OR/txtfield-DATE_OF_LOSS_CLAIM'
+
+2018-01-29 20:22:19 - [MESSAGE][PASSED] - Text '01/03/2017' is set on object 'Object Repository/ENDORSEMENT_AGENT_OR/txtfield-DATE_OF_LOSS_CLAIM'
+
+2018-01-29 20:22:19 - [TEST_STEP][PASSED] - setText: Text '50000' is set on object 'Object Repository/ENDORSEMENT_AGENT_OR/txtfield-LOSSAMOUNT_CLAIM'
+
+2018-01-29 20:22:19 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/ENDORSEMENT_AGENT_OR/txtfield-LOSSAMOUNT_CLAIM'
+
+2018-01-29 20:22:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/ENDORSEMENT_AGENT_OR/drp-TYPEOFINCIDENT' 
+
+2018-01-29 20:22:20 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/ENDORSEMENT_AGENT_OR/drp-TYPEOFINCIDENT' 
+
+2018-01-29 20:22:20 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-29 20:22:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-29 20:22:24 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:22:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 50
+
+2018-01-29 20:22:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn-UPDATE_NUMOFCLAIMS' is clicked on
+
+2018-01-29 20:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn-UPDATE_NUMOFCLAIMS' is clicked on
+
+2018-01-29 20:22:24 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-01-29 20:22:32 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-01-29 20:22:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Endorsement_OR/btn_RECALCULATE_UW' is clicked on
+
+2018-01-29 20:22:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:22:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - Statement - getInsuredName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Generic_OR/get_INSURED_NAME)): Text of object 'Object Repository/Generic_OR/get_INSURED_NAME' is: 'James Racher Lastin'
+
+2018-01-29 20:22:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generic_OR/get_INSURED_NAME' is: 'James Racher Lastin'
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - Statement - println(getInsuredName): null
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - Statement - hdnPolicyInfoIdEND = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Generic_OR/hdnPolicyInfoId): Finding Test Object with id 'Object Repository/Generic_OR/hdnPolicyInfoId'
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - Statement - policyInfoid = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(hdnPolicyInfoIdEND, "value"): Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3535'
+
+2018-01-29 20:22:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3535'
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - Statement - policyInfoId = policyInfoid: null
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ENDORSEMENT_AGENT_OR/btn_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:22:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 20:22:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 20:22:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:22:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:22:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:22:40 - [TEST_STEP][PASSED] - setText: Text 'James Racher Lastin' is set on object 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE'
+
+2018-01-29 20:22:41 - [MESSAGE][PASSED] - Text 'James Racher Lastin' is set on object 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE'
+
+2018-01-29 20:22:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 20:22:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 20:22:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_INSURED_SIGNATURE' is clicked on
+
+2018-01-29 20:22:43 - [TEST_STEP][PASSED] - Statement - otpQueryEND = "SELECT TOP 1 OtpGenerated FROM PPE_ApplicationForms_trn where PolicyInfoId = " + policyInfoId + " Order BY ModifiedDateTime DESC": null
+
+2018-01-29 20:22:43 - [TEST_STEP][PASSED] - Statement - println("otpQuery" + " " + otpQueryEND): null
+
+2018-01-29 20:22:43 - [TEST_STEP][PASSED] - com.PPE.Database_Connection.connectDB: com.PPE.Database_Connection.connectDB is PASSED
+
+2018-01-29 20:22:44 - [MESSAGE][PASSED] - com.PPE.Database_Connection.connectDB is PASSED
+
+2018-01-29 20:22:44 - [TEST_STEP][PASSED] - Statement - recordset1 = CustomKeywords.com.PPE.Database_Connection.executeQuery(otpQueryEND): com.PPE.Database_Connection.executeQuery is PASSED
+
+2018-01-29 20:22:45 - [MESSAGE][PASSED] - com.PPE.Database_Connection.executeQuery is PASSED
+
+2018-01-29 20:22:45 - [TEST_STEP][PASSED] - Statement - otpEndorsement = 0: null
+
+2018-01-29 20:22:45 - [TEST_STEP][PASSED] - Statement - While (recordset1.next()): null
+
+2018-01-29 20:22:45 - [TEST_STEP][PASSED] - Statement - otpEndorsement = recordset1.getObject("OtpGenerated"): null
+
+2018-01-29 20:22:45 - [TEST_STEP][PASSED] - Statement - println("otp" + " " + otpEndorsement): null
+
+2018-01-29 20:22:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-29 20:22:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-29 20:22:55 - [TEST_STEP][PASSED] - Statement - txtOtp = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application_OR/txtfield-OTP): Finding Test Object with id 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-01-29 20:22:55 - [TEST_STEP][PASSED] - setText: Text '8480' is set on object 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-01-29 20:22:55 - [MESSAGE][PASSED] - Text '8480' is set on object 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-01-29 20:22:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-29 20:22:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-29 20:22:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OTP_VERIFY' is clicked on
+
+2018-01-29 20:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OTP_VERIFY' is clicked on
+
+2018-01-29 20:22:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:23:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 20:23:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_FOR_UW_APPROVAL' is clicked on
+
+2018-01-29 20:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_FOR_UW_APPROVAL' is clicked on
+
+2018-01-29 20:23:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 20:23:33 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-29 20:07:01 - [TEST_SUITE][PASSED] - PPE: Test Cases/AGENT_ENDORSEMENT_REQUEST]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="PPE" tests="1" failures="0" errors="0" time="17" timestamp="2018-01-31 15:58:50" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Data_Driven\\Reports\\PPE\\20180131_155848"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Data_Driven\\Reports\\PPE\\20180131_155848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="14d5e8c38abad1d710673cdf25d7984c"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Data_Driven_Testing" classname="Test Cases/Data_Driven_Testing" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:58:50 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing: Test Cases/Data_Driven_Testing
+
+2018-01-31 15:58:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://13.90.102.191:8066/'
+
+2018-01-31 15:58:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://13.90.102.191:8066/'
+
+2018-01-31 15:58:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-31 15:58:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-31 15:58:59 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Get_Data_Using_Script): Test data is internal data, reading internal data
+
+2018-01-31 15:58:59 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): null
+
+2018-01-31 15:58:59 - [TEST_STEP][PASSED] - Statement - state = data.internallyGetValue(0, 0): null
+
+2018-01-31 15:59:00 - [TEST_STEP][PASSED] - Statement - println("State is" + " " + state): null
+
+2018-01-31 15:59:00 - [TEST_STEP][PASSED] - Statement - If (state == "GA"): null
+
+2018-01-31 15:59:00 - [TEST_STEP][PASSED] - Statement - Else: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-31 15:59:00 - [TEST_STEP][PASSED] - setText: Text 'ih.jbutler' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-31 15:59:00 - [MESSAGE][PASSED] - Text 'ih.jbutler' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-31 15:59:00 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-31 15:59:00 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-31 15:59:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-31 15:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-31 15:59:06 - [TEST_STEP][PASSED] - Statement - If (state == "GA"): null
+
+2018-01-31 15:59:06 - [TEST_STEP][PASSED] - Statement - Else: Text '407 N Queen St Durham, NC 27701 USA' is set on object 'Object Repository/Quote_OR/txtfield_PropertyAddress'
+
+2018-01-31 15:59:06 - [TEST_STEP][PASSED] - setText: Text '407 N Queen St Durham, NC 27701 USA' is set on object 'Object Repository/Quote_OR/txtfield_PropertyAddress'
+
+2018-01-31 15:59:06 - [MESSAGE][PASSED] - Text '407 N Queen St Durham, NC 27701 USA' is set on object 'Object Repository/Quote_OR/txtfield_PropertyAddress']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-31 15:58:50 - [TEST_SUITE][PASSED] - PPE: Test Cases/Data_Driven_Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

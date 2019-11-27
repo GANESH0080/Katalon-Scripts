@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>UW Approving an Endorsment request.</description>
+   <name>Endorsment Approval Process</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bcb97d7-842d-4652-a67a-a4d57aace230</testCaseGuid>
+</TestCaseEntity>

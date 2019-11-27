@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_CONSTRUCTION_TYPE</name>
+   <tag></tag>
+   <elementGuidId>62ff6634-4e51-4d10-b2e7-790480e444d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ddlConstructionType&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[count(. | //*[@class = 'form-control ddl ddlType']) = count(//*[@class = 'form-control ddl ddlType'])][count(. | //*[@data-val = 'true']) = count(//*[@data-val = 'true'])][count(. | //*[@data-val-required = 'The TypeId field is required.']) = count(//*[@data-val-required = 'The TypeId field is required.'])][count(. | //*[@id = 'ddlConstructionType']) = count(//*[@id = 'ddlConstructionType'])][count(. | //*[@name = 'PropertyInfo.ExteriorPropertyInfo.ConstructionType.TypeId']) = count(//*[@name = 'PropertyInfo.ExteriorPropertyInfo.ConstructionType.TypeId'])][count(. | id(&quot;ddlConstructionType&quot;)) = count(id(&quot;ddlConstructionType&quot;))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ddl ddlType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The TypeId field is required.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ddlConstructionType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PropertyInfo.ExteriorPropertyInfo.ConstructionType.TypeId</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ddlConstructionType&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

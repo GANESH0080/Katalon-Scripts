@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Searching_Property_Address,Firefox 41.0,,2017-12-06 15:36:37,2017-12-06 15:36:57,20.166s,ERROR
+,,,,,,
+Test Cases/Searching property Address,Firefox 41.0,,2017-12-06 15:36:37,2017-12-06 15:36:56,19.295s,ERROR
+openBrowser,Firefox 41.0,,2017-12-06 15:36:38,2017-12-06 15:36:42,4.101s,PASSED
+maximizeWindow,Firefox 41.0,,2017-12-06 15:36:42,2017-12-06 15:36:42,0.384s,PASSED
+navigateToUrl,Firefox 41.0,,2017-12-06 15:36:42,2017-12-06 15:36:49,6.727s,PASSED
+setText,Firefox 41.0,,2017-12-06 15:36:49,2017-12-06 15:36:49,0.279s,PASSED
+setText,Firefox 41.0,,2017-12-06 15:36:49,2017-12-06 15:36:49,0.154s,PASSED
+click,Firefox 41.0,,2017-12-06 15:36:49,2017-12-06 15:36:55,5.966s,PASSED
+"Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE)",Firefox 41.0,,2017-12-06 15:36:55,2017-12-06 15:36:56,1.053s,PASSED
+Statement - prAddress = prAddress[1],Firefox 41.0,,2017-12-06 15:36:56,2017-12-06 15:36:56,0.004s,PASSED
+setText,Firefox 41.0,,2017-12-06 15:36:56,2017-12-06 15:36:56,0.008s,PASSED

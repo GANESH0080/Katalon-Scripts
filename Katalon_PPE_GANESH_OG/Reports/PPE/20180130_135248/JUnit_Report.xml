@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="710" tests="1" failures="5" errors="0">
+   <testsuite name="PPE" tests="1" failures="5" errors="0" time="710" timestamp="2018-01-30 13:52:50" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301153573.png, D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301185235.png, D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301216620.png, D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301247872.png, D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301279166.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="bea4baf5ffe0c811afa2261331e6f2de"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/QUOTE_CREATION" classname="Test Cases/QUOTE_CREATION" status="PASSED">
+         <system-out><![CDATA[2018-01-30 13:52:50 - [TEST_CASE][PASSED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION
+
+2018-01-30 13:52:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://13.90.102.191:8066'
+
+2018-01-30 13:53:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://13.90.102.191:8066'
+
+2018-01-30 13:53:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-30 13:53:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-30 13:53:02 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-30 13:53:02 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-30 13:53:02 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-30 13:53:02 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-30 13:53:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-30 13:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-30 13:53:12 - [TEST_STEP][PASSED] - setText: Text '874 Hazel St Macon, GA 31201 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-01-30 13:53:13 - [MESSAGE][PASSED] - Text '874 Hazel St Macon, GA 31201 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-01-30 13:53:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-01-30 13:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-01-30 13:53:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-30 13:53:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-30 13:53:24 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-30 13:53:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-30 13:53:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:53:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:53:24 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-30 13:53:24 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-30 13:53:24 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:53:24 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:53:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-30 13:53:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-30 13:53:26 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:53:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:53:27 - [TEST_STEP][PASSED] - setText: Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:53:27 - [MESSAGE][PASSED] - Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:53:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-30 13:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-30 13:53:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-30 13:53:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-30 13:53:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-01-30 13:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-01-30 13:53:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-30 13:54:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-30 13:54:00 - [TEST_STEP][PASSED] - setText: Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-01-30 13:54:00 - [MESSAGE][PASSED] - Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-01-30 13:54:00 - [TEST_STEP][PASSED] - setText: Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-01-30 13:54:00 - [MESSAGE][PASSED] - Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-01-30 13:54:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:54:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:54:05 - [TEST_STEP][PASSED] - setText: Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-01-30 13:54:06 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-01-30 13:54:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:54:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:54:11 - [TEST_STEP][PASSED] - setText: Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-01-30 13:54:11 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-01-30 13:54:11 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-30 13:54:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-30 13:54:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-01-30 13:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-01-30 13:54:21 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-30 13:54:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-30 13:54:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:54:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:54:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on
+
+2018-01-30 13:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APPLICATION_CREATION" classname="Test Cases/APPLICATION_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id=&quot;btnSignApplication&quot;]' not found)"/>
+         <system-out><![CDATA[2018-01-30 13:54:27 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id="btnSignApplication"]' not found)
+
+2018-01-30 13:54:27 - [TEST_STEP][PASSED] - setText: Text '864 Ash St Macon, GA 31201 USA' is set on object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE'
+
+2018-01-30 13:54:27 - [MESSAGE][PASSED] - Text '864 Ash St Macon, GA 31201 USA' is set on object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE'
+
+2018-01-30 13:54:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SEARCH_ADDRESS_QUOTE_PAGE' is clicked on
+
+2018-01-30 13:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SEARCH_ADDRESS_QUOTE_PAGE' is clicked on
+
+2018-01-30 13:54:43 - [TEST_STEP][PASSED] - Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address): Finding Test Object with id 'Object Repository/Endorsement_OR/get_Address'
+
+2018-01-30 13:54:43 - [TEST_STEP][PASSED] - Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, "value"): Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '864 Ash St, Macon, GA 31201, USA'
+
+2018-01-30 13:54:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '864 Ash St, Macon, GA 31201, USA'
+
+2018-01-30 13:54:43 - [TEST_STEP][PASSED] - Statement - println(propertyaddress): null
+
+2018-01-30 13:54:43 - [TEST_STEP][PASSED] - Statement - propertyaddress = propertyaddress: null
+
+2018-01-30 13:54:43 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-30 13:54:43 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-30 13:54:43 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:54:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:54:44 - [TEST_STEP][PASSED] - setText: Text '2000' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:54:44 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-30 13:54:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-30 13:54:44 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-30 13:54:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:54:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:54:44 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:54:44 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-30 13:54:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-30 13:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-30 13:54:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-30 13:54:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-30 13:54:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-01-30 13:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-01-30 13:55:41 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-30 13:55:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-30 13:55:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-01-30 13:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-01-30 13:55:51 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-30 13:56:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-30 13:56:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-30 13:56:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-30 13:56:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' is clicked on
+
+2018-01-30 13:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' is clicked on
+
+2018-01-30 13:56:04 - [TEST_STEP][PASSED] - setText: Text 'Smith' is set on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME'
+
+2018-01-30 13:56:04 - [MESSAGE][PASSED] - Text 'Smith' is set on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME'
+
+2018-01-30 13:56:04 - [TEST_STEP][PASSED] - setText: Text 'Racher' is set on object 'Object Repository/Application_OR/txtfield_INSURED_MIDDLENAME'
+
+2018-01-30 13:56:05 - [MESSAGE][PASSED] - Text 'Racher' is set on object 'Object Repository/Application_OR/txtfield_INSURED_MIDDLENAME'
+
+2018-01-30 13:56:05 - [TEST_STEP][PASSED] - setText: Text 'Lastin' is set on object 'Object Repository/Application_OR/txtfield_INSURED_LASTNAME'
+
+2018-01-30 13:56:05 - [MESSAGE][PASSED] - Text 'Lastin' is set on object 'Object Repository/Application_OR/txtfield_INSURED_LASTNAME'
+
+2018-01-30 13:56:05 - [TEST_STEP][PASSED] - setText: Text '09/10/1999' is set on object 'Object Repository/Application_OR/txtfield_INSURED_DOB'
+
+2018-01-30 13:56:05 - [MESSAGE][PASSED] - Text '09/10/1999' is set on object 'Object Repository/Application_OR/txtfield_INSURED_DOB'
+
+2018-01-30 13:56:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:56:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:56:10 - [TEST_STEP][PASSED] - setText: Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Application_OR/txtfield_INSURED_EMAIL'
+
+2018-01-30 13:56:10 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Application_OR/txtfield_INSURED_EMAIL'
+
+2018-01-30 13:56:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:56:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:56:15 - [TEST_STEP][PASSED] - setText: Text '9768180080' is set on object 'Object Repository/Application_OR/txtfield_INSURED_CONTACTNUMBER'
+
+2018-01-30 13:56:15 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Application_OR/txtfield_INSURED_CONTACTNUMBER'
+
+2018-01-30 13:56:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:56:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:56:20 - [TEST_STEP][PASSED] - Statement - hdnPolicyInfoId = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Generic_OR/hdnPolicyInfoId): Finding Test Object with id 'Object Repository/Generic_OR/hdnPolicyInfoId'
+
+2018-01-30 13:56:20 - [TEST_STEP][PASSED] - Statement - policyInfoid = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(hdnPolicyInfoId, "value"): Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3546'
+
+2018-01-30 13:56:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3546'
+
+2018-01-30 13:56:20 - [TEST_STEP][PASSED] - Statement - policyInfoId = policyInfoid: null
+
+2018-01-30 13:56:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_POLICYHOLDER_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_POLICYHOLDER_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:56:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-30 13:56:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-30 13:56:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE' is clicked on
+
+2018-01-30 13:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE' is clicked on
+
+2018-01-30 13:56:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-30 13:56:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-30 13:56:26 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE'
+
+2018-01-30 13:56:26 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE'
+
+2018-01-30 13:56:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-30 13:56:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-30 13:56:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Application_OR/drp_FOUNDATIONTYPE_PROPERTYPAGE'
+
+2018-01-30 13:56:29 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Application_OR/drp_FOUNDATIONTYPE_PROPERTYPAGE'
+
+2018-01-30 13:56:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-30 13:56:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-30 13:56:31 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [7] are selected on object 'Object Repository/Application_OR/drp_HEATINGTYPE_PROPERTYPAGE'
+
+2018-01-30 13:56:31 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Application_OR/drp_HEATINGTYPE_PROPERTYPAGE'
+
+2018-01-30 13:56:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:56:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:56:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:56:36 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-30 13:56:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-30 13:56:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_ROOFAGE_POPUP' is clicked on
+
+2018-01-30 13:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ROOFAGE_POPUP' is clicked on
+
+2018-01-30 13:56:40 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-30 13:56:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-30 13:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-30 13:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-30 13:56:44 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-01-30 13:56:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-01-30 13:56:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-30 13:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-01-30 13:56:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:56:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:56:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:56:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:57:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:57:02 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Application_OR/chkbx_AGREEMENT' is checked
+
+2018-01-30 13:57:02 - [MESSAGE][PASSED] - Object 'Object Repository/Application_OR/chkbx_AGREEMENT' is checked
+
+2018-01-30 13:57:02 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-30 13:57:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-30 13:57:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-01-30 13:57:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-30 13:57:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-30 13:57:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id="btnSignApplication"]' not found)
+
+2018-01-30 14:02:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id="btnSignApplication"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301153573.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-30 13:54:27 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id="btnSignApplication"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_CREATION" classname="Test Cases/ENDORSEMENT_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id=&quot;btnAdvanceFilter&quot;]/label' not found)"/>
+         <system-out><![CDATA[2018-01-30 14:02:34 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-01-30 14:02:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-01-30 14:03:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301185235.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-30 14:02:34 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AGENT_ENDORSEMENT_REQUEST" classname="Test Cases/AGENT_ENDORSEMENT_REQUEST" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id=&quot;txtUserName&quot;]' not found)"/>
+         <system-out><![CDATA[2018-01-30 14:03:05 - [TEST_CASE][FAILED] - Test Cases/AGENT_ENDORSEMENT_REQUEST: Test Cases/AGENT_ENDORSEMENT_REQUEST FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-01-30 14:03:05 - [TEST_STEP][FAILED] - setText: Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-01-30 14:03:36 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301216620.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-30 14:03:05 - [TEST_CASE][FAILED] - Test Cases/AGENT_ENDORSEMENT_REQUEST: Test Cases/AGENT_ENDORSEMENT_REQUEST FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_APPROVAL_UW" classname="Test Cases/ENDORSEMENT_APPROVAL_UW" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id=&quot;txtUserName&quot;]' not found)"/>
+         <system-out><![CDATA[2018-01-30 14:03:36 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_APPROVAL_UW: Test Cases/ENDORSEMENT_APPROVAL_UW FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-01-30 14:03:37 - [TEST_STEP][FAILED] - setText: Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-01-30 14:04:08 - [MESSAGE][FAILED] - Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301247872.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-30 14:03:36 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_APPROVAL_UW: Test Cases/ENDORSEMENT_APPROVAL_UW FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/gettext" classname="Test Cases/gettext" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id=&quot;divApplicationList&quot;]/tr/td[6]' not found)"/>
+         <system-out><![CDATA[2018-01-30 14:04:08 - [TEST_CASE][FAILED] - Test Cases/gettext: Test Cases/gettext FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+
+2018-01-30 14:04:08 - [TEST_STEP][FAILED] - Statement - policynumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_POLICYNUMBER)): Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+
+2018-01-30 14:04:39 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180130_135248\\1517301279166.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-30 14:04:08 - [TEST_CASE][FAILED] - Test Cases/gettext: Test Cases/gettext FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-30 13:52:50 - [TEST_SUITE][FAILED] - PPE: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id="btnSignApplication"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-30 13:52:50 - [TEST_SUITE][FAILED] - PPE: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' located by 'By.xpath: //*[@id="btnSignApplication"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

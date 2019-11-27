@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching_Property_Address" time="64" tests="0" failures="1" errors="0">
+   <testsuite name="Searching_Property_Address" tests="0" failures="1" errors="0" time="64" timestamp="2017-12-06 13:42:35" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Searching_Property_Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_134233"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_134233\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_134233\\1512548018906.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="a39931fc-9b8e-4eb8-839d-8daa5cabaf13"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Searching property Address" classname="Test Cases/Searching property Address" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id(&quot;btnSendQuote&quot;)) = count(id(&quot;btnSendQuote&quot;))]' not found)"/>
+         <system-out><![CDATA[2017-12-06 13:42:35 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id("btnSendQuote")) = count(id("btnSendQuote"))]' not found)
+
+2017-12-06 13:42:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-06 13:42:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-06 13:42:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 13:42:40 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 13:42:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-06 13:42:45 - [MESSAGE][PASSED] - Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-06 13:42:45 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 13:42:45 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 13:42:45 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 13:42:46 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 13:42:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 13:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 13:42:49 - [TEST_STEP][PASSED] - Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 13:42:49 - [TEST_CASE][PASSED] - Test Cases/Prepare_property_Address: Test Cases/Prepare_property_Address
+
+2017-12-06 13:42:50 - [TEST_STEP][PASSED] - Statement - info = ["prAddress":""]: null
+
+2017-12-06 13:42:50 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/Address"): Reading excel file with source file 'D:\Katalon_Practice_Workspace\Katalon_Five\Data Files\Katalon_Property_Address.xlsx' and sheet name 'Search_Address'
+
+2017-12-06 13:42:50 - [TEST_STEP][PASSED] - Statement - prAddress = data.getValue(1, 1): null
+
+2017-12-06 13:42:50 - [TEST_STEP][PASSED] - Statement - return info: null
+
+2017-12-06 13:42:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 13:42:50 - [TEST_STEP][PASSED] - Statement - prAddress = prAddress: null
+
+2017-12-06 13:42:50 - [TEST_STEP][PASSED] - setText: Text '560 Park Ave SE Atlanta, GA 30312 USA' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-06 13:42:51 - [MESSAGE][PASSED] - Text '560 Park Ave SE Atlanta, GA 30312 USA' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-06 13:42:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-06 13:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-06 13:43:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-06 13:43:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-06 13:43:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 13:43:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 13:43:03 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/select_PropertyInfo.ExteriorPr'
+
+2017-12-06 13:43:04 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/select_PropertyInfo.ExteriorPr'
+
+2017-12-06 13:43:04 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 13:43:04 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 13:43:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_GET QUOTE' is clicked on
+
+2017-12-06 13:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/button_GET QUOTE' is clicked on
+
+2017-12-06 13:43:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id("btnSendQuote")) = count(id("btnSendQuote"))]' not found)
+
+2017-12-06 13:43:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id("btnSendQuote")) = count(id("btnSendQuote"))]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_134233\\1512548018906.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-06 13:42:35 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id("btnSendQuote")) = count(id("btnSendQuote"))]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 13:42:35 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id("btnSendQuote")) = count(id("btnSendQuote"))]' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-06 13:42:35 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/input_btnSendQuote' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_btnSendQuote' located by 'By.xpath: //input[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])][count(. | //*[@value = 'SEND QUOTE']) = count(//*[@value = 'SEND QUOTE'])][count(. | //*[@class = 'btn btn-primary btn-block']) = count(//*[@class = 'btn btn-primary btn-block'])][count(. | //*[@id = 'btnSendQuote']) = count(//*[@id = 'btnSendQuote'])][count(. | //*[@data-toggle = 'modal']) = count(//*[@data-toggle = 'modal'])][count(. | //*[@data-target = '#AddEditModal']) = count(//*[@data-target = '#AddEditModal'])][count(. | //*[@onclick = 'inputMask();']) = count(//*[@onclick = 'inputMask();'])][count(. | id("btnSendQuote")) = count(id("btnSendQuote"))]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

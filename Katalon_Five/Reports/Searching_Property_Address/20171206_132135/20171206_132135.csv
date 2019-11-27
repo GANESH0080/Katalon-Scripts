@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Searching_Property_Address,Firefox 41.0,,2017-12-06 13:21:36,2017-12-06 13:22:54,1m - 18.174s,FAILED
+,,,,,,
+Test Cases/Searching property Address,Firefox 41.0,,2017-12-06 13:21:37,2017-12-06 13:22:54,1m - 17.385s,FAILED
+"Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE)",Firefox 41.0,,2017-12-06 13:21:37,2017-12-06 13:21:39,1.200s,PASSED
+Statement - address = address,Firefox 41.0,,2017-12-06 13:21:39,2017-12-06 13:21:39,0.002s,PASSED
+openBrowser,Firefox 41.0,,2017-12-06 13:21:39,2017-12-06 13:21:42,3.881s,PASSED
+maximizeWindow,Firefox 41.0,,2017-12-06 13:21:42,2017-12-06 13:21:43,0.319s,PASSED
+navigateToUrl,Firefox 41.0,,2017-12-06 13:21:43,2017-12-06 13:21:47,4.464s,PASSED
+setText,Firefox 41.0,,2017-12-06 13:21:47,2017-12-06 13:21:47,0.210s,PASSED
+setText,Firefox 41.0,,2017-12-06 13:21:47,2017-12-06 13:21:48,0.158s,PASSED
+click,Firefox 41.0,,2017-12-06 13:21:48,2017-12-06 13:21:53,5.549s,PASSED
+setText,Firefox 41.0,,2017-12-06 13:21:53,2017-12-06 13:21:53,0.182s,PASSED
+click,Firefox 41.0,,2017-12-06 13:21:53,2017-12-06 13:21:56,2.506s,PASSED
+waitForPageLoad,Firefox 41.0,,2017-12-06 13:21:56,2017-12-06 13:21:56,0.127s,PASSED
+setText,Firefox 41.0,,2017-12-06 13:21:56,2017-12-06 13:22:54,57.995s,FAILED

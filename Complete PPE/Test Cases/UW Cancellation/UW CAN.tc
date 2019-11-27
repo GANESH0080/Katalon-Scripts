@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>UW Cancellation Process</description>
+   <name>UW CAN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eba31336-7307-4a63-9221-6671144e76fe</testCaseGuid>
+</TestCaseEntity>

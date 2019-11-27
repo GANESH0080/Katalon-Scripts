@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="172" tests="1" failures="2" errors="0">
+   <testsuite name="PPE" tests="1" failures="2" errors="0" time="172" timestamp="2018-01-19 19:07:39" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180119_190737"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180119_190737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="cc8fe929696c863a5ee5ff044d3e879b"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/QUOTE_CREATION" classname="Test Cases/QUOTE_CREATION" status="PASSED">
+         <system-out><![CDATA[2018-01-19 19:07:39 - [TEST_CASE][PASSED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION
+
+2018-01-19 19:07:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://13.90.102.191:8066'
+
+2018-01-19 19:07:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://13.90.102.191:8066'
+
+2018-01-19 19:07:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-19 19:07:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-19 19:07:48 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-19 19:07:49 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-01-19 19:07:49 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-19 19:07:49 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-01-19 19:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-19 19:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-01-19 19:07:52 - [TEST_STEP][PASSED] - setText: Text '5230 Stone Croft Trail Atlanta, GA 30331 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-01-19 19:07:52 - [MESSAGE][PASSED] - Text '5230 Stone Croft Trail Atlanta, GA 30331 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-01-19 19:07:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-01-19 19:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-01-19 19:08:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-19 19:08:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-19 19:08:01 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-19 19:08:01 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-19 19:08:01 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:08:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:08:01 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-19 19:08:02 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-19 19:08:02 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:08:02 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:08:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-19 19:08:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-19 19:08:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:08:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:08:04 - [TEST_STEP][PASSED] - setText: Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:08:04 - [MESSAGE][PASSED] - Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:08:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-19 19:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-19 19:08:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-19 19:08:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-19 19:08:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-01-19 19:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-01-19 19:08:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-19 19:08:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-19 19:08:13 - [TEST_STEP][PASSED] - setText: Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-01-19 19:08:14 - [MESSAGE][PASSED] - Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-01-19 19:08:14 - [TEST_STEP][PASSED] - setText: Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-01-19 19:08:14 - [MESSAGE][PASSED] - Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-01-19 19:08:14 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-19 19:08:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-19 19:08:24 - [TEST_STEP][PASSED] - setText: Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-01-19 19:08:24 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-01-19 19:08:24 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-19 19:08:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-19 19:08:34 - [TEST_STEP][PASSED] - setText: Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-01-19 19:08:35 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-01-19 19:08:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-19 19:08:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-19 19:08:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-01-19 19:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-01-19 19:08:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-19 19:08:45 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-19 19:08:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-19 19:08:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-19 19:08:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on
+
+2018-01-19 19:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APPLICATION_CREATION" classname="Test Cases/APPLICATION_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;input class=&quot;form-control form-input  name&quot; data-val=&quot;true&quot; data-val-length=&quot;The field First Name must be a string with a maximum length of 20.&quot; data-val-length-max=&quot;20&quot; data-val-regex=&quot;Invalid First Name&quot; data-val-regex-pattern=&quot;^[A-Za-z '-]+$&quot; data-val-required=&quot;The First Name field is required.&quot; id=&quot;txtPrimaryFirstName&quot; maxlength=&quot;20&quot; name=&quot;PrimaryApplicant.ApplicantName.FirstName&quot; placeholder=&quot;First Name&quot; style=&quot;width:100%&quot; type=&quot;text&quot; value=&quot;&quot;> is not clickable at point (592, 535). Other element would receive the click: &lt;div class=&quot;checkbox&quot;>...&lt;/div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)"/>
+         <system-out><![CDATA[2018-01-19 19:08:50 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input class="form-control form-input  name" data-val="true" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="Invalid First Name" data-val-regex-pattern="^[A-Za-z '-]+$" data-val-required="The First Name field is required." id="txtPrimaryFirstName" maxlength="20" name="PrimaryApplicant.ApplicantName.FirstName" placeholder="First Name" style="width:100%" type="text" value=""> is not clickable at point (592, 535). Other element would receive the click: <div class="checkbox">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)
+
+2018-01-19 19:08:50 - [TEST_STEP][PASSED] - setText: Text '580 Draycott Ct SW Atlanta, GA 30331 USA' is set on object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE'
+
+2018-01-19 19:08:51 - [MESSAGE][PASSED] - Text '580 Draycott Ct SW Atlanta, GA 30331 USA' is set on object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE'
+
+2018-01-19 19:08:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SEARCH_ADDRESS_QUOTE_PAGE' is clicked on
+
+2018-01-19 19:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SEARCH_ADDRESS_QUOTE_PAGE' is clicked on
+
+2018-01-19 19:09:01 - [TEST_STEP][PASSED] - Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address): Finding Test Object with id 'Object Repository/Endorsement_OR/get_Address'
+
+2018-01-19 19:09:01 - [TEST_STEP][PASSED] - Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, "value"): Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '580 Draycott Ct SW, Atlanta, GA 30331, USA'
+
+2018-01-19 19:09:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '580 Draycott Ct SW, Atlanta, GA 30331, USA'
+
+2018-01-19 19:09:01 - [TEST_STEP][PASSED] - Statement - println(propertyaddress): null
+
+2018-01-19 19:09:01 - [TEST_STEP][PASSED] - Statement - propertyaddress = propertyaddress: null
+
+2018-01-19 19:09:01 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-19 19:09:01 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-01-19 19:09:01 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:09:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:09:02 - [TEST_STEP][PASSED] - setText: Text '2000' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:09:02 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-01-19 19:09:02 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-19 19:09:02 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-01-19 19:09:02 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:09:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:09:02 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:09:02 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-01-19 19:09:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-19 19:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-01-19 19:09:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-19 19:09:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-19 19:09:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-01-19 19:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-01-19 19:09:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-19 19:09:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-19 19:09:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-01-19 19:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-01-19 19:09:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-19 19:09:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-19 19:09:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-19 19:09:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-19 19:09:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input class="form-control form-input  name" data-val="true" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="Invalid First Name" data-val-regex-pattern="^[A-Za-z '-]+$" data-val-required="The First Name field is required." id="txtPrimaryFirstName" maxlength="20" name="PrimaryApplicant.ApplicantName.FirstName" placeholder="First Name" style="width:100%" type="text" value=""> is not clickable at point (592, 535). Other element would receive the click: <div class="checkbox">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)
+
+2018-01-19 19:09:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-19 19:09:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input class="form-control form-input  name" data-val="true" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="Invalid First Name" data-val-regex-pattern="^[A-Za-z '-]+$" data-val-required="The First Name field is required." id="txtPrimaryFirstName" maxlength="20" name="PrimaryApplicant.ApplicantName.FirstName" placeholder="First Name" style="width:100%" type="text" value=""> is not clickable at point (592, 535). Other element would receive the click: <div class="checkbox">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)]]></system-out>
+         <system-err><![CDATA[2018-01-19 19:08:50 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input class="form-control form-input  name" data-val="true" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="Invalid First Name" data-val-regex-pattern="^[A-Za-z '-]+$" data-val-required="The First Name field is required." id="txtPrimaryFirstName" maxlength="20" name="PrimaryApplicant.ApplicantName.FirstName" placeholder="First Name" style="width:100%" type="text" value=""> is not clickable at point (592, 535). Other element would receive the click: <div class="checkbox">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_CREATION" classname="Test Cases/ENDORSEMENT_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id=&quot;btnAdvanceFilter&quot;]/label' not found)"/>
+         <system-out><![CDATA[2018-01-19 19:09:59 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-01-19 19:09:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-01-19 19:10:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-19 19:10:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-out>
+         <system-err><![CDATA[2018-01-19 19:09:59 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-19 19:07:39 - [TEST_SUITE][FAILED] - PPE: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input class="form-control form-input  name" data-val="true" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="Invalid First Name" data-val-regex-pattern="^[A-Za-z '-]+$" data-val-required="The First Name field is required." id="txtPrimaryFirstName" maxlength="20" name="PrimaryApplicant.ApplicantName.FirstName" placeholder="First Name" style="width:100%" type="text" value=""> is not clickable at point (592, 535). Other element would receive the click: <div class="checkbox">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)]]></system-out>
+      <system-err><![CDATA[2018-01-19 19:07:39 - [TEST_SUITE][FAILED] - PPE: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input class="form-control form-input  name" data-val="true" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="Invalid First Name" data-val-regex-pattern="^[A-Za-z '-]+$" data-val-required="The First Name field is required." id="txtPrimaryFirstName" maxlength="20" name="PrimaryApplicant.ApplicantName.FirstName" placeholder="First Name" style="width:100%" type="text" value=""> is not clickable at point (592, 535). Other element would receive the click: <div class="checkbox">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir1548_31703}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc8fe929696c863a5ee5ff044d3e879b)]]></system-err>
+   </testsuite>
+</testsuites>

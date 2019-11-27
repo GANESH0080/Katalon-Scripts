@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching_Property_Address" time="84" tests="0" failures="1" errors="0">
+   <testsuite name="Searching_Property_Address" tests="0" failures="1" errors="0" time="84" timestamp="2017-12-06 14:50:20" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Searching_Property_Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_145019"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_145019\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_145019\\1512552104627.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="0e44645e-d0ed-46eb-b584-2b411a452338"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Searching property Address" classname="Test Cases/Searching property Address" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade&quot;>&lt;/div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)"/>
+         <system-out><![CDATA[2017-12-06 14:50:21 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)
+
+2017-12-06 14:50:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-06 14:50:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-06 14:50:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 14:50:25 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 14:50:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cogitate.us:8066/' successfully
+
+2017-12-06 14:50:30 - [MESSAGE][PASSED] - Navigate to 'http://www.cogitate.us:8066/' successfully
+
+2017-12-06 14:50:30 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 14:50:30 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 14:50:30 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 14:50:31 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 14:50:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 14:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 14:50:36 - [TEST_STEP][PASSED] - Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 14:50:36 - [TEST_CASE][PASSED] - Test Cases/Prepare_property_Address: Test Cases/Prepare_property_Address
+
+2017-12-06 14:50:36 - [TEST_STEP][PASSED] - Statement - info = ["prAddress":""]: null
+
+2017-12-06 14:50:36 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/Address"): Reading excel file with source file 'D:\Katalon_Practice_Workspace\Katalon_Five\Data Files\Katalon_Property_Address.xlsx' and sheet name 'Search_Address'
+
+2017-12-06 14:50:37 - [TEST_STEP][PASSED] - Statement - prAddress = data.getValue(1, 1): null
+
+2017-12-06 14:50:37 - [TEST_STEP][PASSED] - Statement - return info: null
+
+2017-12-06 14:50:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 14:50:37 - [TEST_STEP][PASSED] - Statement - prAddress = prAddress: null
+
+2017-12-06 14:50:37 - [TEST_STEP][PASSED] - setText: Text '440 Park Ave SE Atlanta, GA 30312 USA' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-06 14:50:37 - [MESSAGE][PASSED] - Text '440 Park Ave SE Atlanta, GA 30312 USA' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-06 14:50:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-06 14:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-06 14:50:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-06 14:50:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-06 14:50:49 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 14:50:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 14:50:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/select_PropertyInfo.ExteriorPr'
+
+2017-12-06 14:50:50 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/select_PropertyInfo.ExteriorPr'
+
+2017-12-06 14:50:50 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 14:50:50 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/input_PropertyInfo.ValuationRa'
+
+2017-12-06 14:50:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_GET QUOTE' is clicked on
+
+2017-12-06 14:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/button_GET QUOTE' is clicked on
+
+2017-12-06 14:50:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_btnSendQuote' is clicked on
+
+2017-12-06 14:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/input_btnSendQuote' is clicked on
+
+2017-12-06 14:51:42 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/input_PrimaryApplicant.Applica' is clickable
+
+2017-12-06 14:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/input_PrimaryApplicant.Applica' is clickable
+
+2017-12-06 14:51:42 - [TEST_STEP][PASSED] - setText: Text 'Ganesh' is set on object 'Object Repository/input_PrimaryApplicant.Applica'
+
+2017-12-06 14:51:42 - [MESSAGE][PASSED] - Text 'Ganesh' is set on object 'Object Repository/input_PrimaryApplicant.Applica'
+
+2017-12-06 14:51:42 - [TEST_STEP][PASSED] - setText: Text 'Salunkhe' is set on object 'Object Repository/input_PrimaryApplicant.Applica (1)'
+
+2017-12-06 14:51:43 - [MESSAGE][PASSED] - Text 'Salunkhe' is set on object 'Object Repository/input_PrimaryApplicant.Applica (1)'
+
+2017-12-06 14:51:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_PropertyInfo.PropertyAdd' is clicked on
+
+2017-12-06 14:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/input_PropertyInfo.PropertyAdd' is clicked on
+
+2017-12-06 14:51:43 - [TEST_STEP][PASSED] - setText: Text '9768180080' is set on object 'Object Repository/input_PropertyInfo.PropertyAdd'
+
+2017-12-06 14:51:43 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/input_PropertyInfo.PropertyAdd'
+
+2017-12-06 14:51:43 - [TEST_STEP][PASSED] - setText: Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/input_PropertyInfo.PropertyAdd (1)'
+
+2017-12-06 14:51:43 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/input_PropertyInfo.PropertyAdd (1)'
+
+2017-12-06 14:51:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Send Quote Detail' is clicked on
+
+2017-12-06 14:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Send Quote Detail' is clicked on
+
+2017-12-06 14:51:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/select_PropertyInfo.ExteriorPr'
+
+2017-12-06 14:51:44 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/select_PropertyInfo.ExteriorPr'
+
+2017-12-06 14:51:44 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/a_RE-CALCULATE PREMIUM' is clickable
+
+2017-12-06 14:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/a_RE-CALCULATE PREMIUM' is clickable
+
+2017-12-06 14:51:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)
+
+2017-12-06 14:51:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_145019\\1512552104627.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-06 14:50:21 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 14:50:20 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)]]></system-out>
+      <system-err><![CDATA[2017-12-06 14:50:20 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_RE-CALCULATE PREMIUM' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (630, 575.9500122070312). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e44645e-d0ed-46eb-b584-2b411a452338)]]></system-err>
+   </testsuite>
+</testsuites>

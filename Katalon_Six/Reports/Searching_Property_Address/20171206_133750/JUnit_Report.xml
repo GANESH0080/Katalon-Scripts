@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching_Property_Address" time="49" tests="0" failures="1" errors="0">
+   <testsuite name="Searching_Property_Address" tests="0" failures="1" errors="0" time="49" timestamp="2017-12-06 13:37:51" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Searching_Property_Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_133750"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_133750\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_133750\\1512547719997.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="2ca8583f-8ba2-4592-b2e7-2bb2e18454f3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Searching property Address" classname="Test Cases/Searching property Address" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id=&quot;txtPropertyValuetion&quot;]' not found)"/>
+         <system-out><![CDATA[2017-12-06 13:37:51 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id="txtPropertyValuetion"]' not found)
+
+2017-12-06 13:37:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-06 13:37:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-06 13:37:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 13:37:57 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 13:37:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-06 13:38:02 - [MESSAGE][PASSED] - Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-06 13:38:02 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 13:38:02 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-06 13:38:02 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 13:38:02 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-06 13:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 13:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+2017-12-06 13:38:05 - [TEST_STEP][PASSED] - Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 13:38:05 - [TEST_CASE][PASSED] - Test Cases/Prepare_property_Address: Test Cases/Prepare_property_Address
+
+2017-12-06 13:38:05 - [TEST_STEP][PASSED] - Statement - info = ["prAddress":""]: null
+
+2017-12-06 13:38:05 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/Address"): Reading excel file with source file 'D:\Katalon_Practice_Workspace\Katalon_Five\Data Files\Katalon_Property_Address.xlsx' and sheet name 'Search_Address'
+
+2017-12-06 13:38:06 - [TEST_STEP][PASSED] - Statement - prAddress = data.getValue(1, 1): null
+
+2017-12-06 13:38:06 - [TEST_STEP][PASSED] - Statement - return info: null
+
+2017-12-06 13:38:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Prepare_property_Address' successfully
+
+2017-12-06 13:38:06 - [TEST_STEP][PASSED] - Statement - prAddress = prAddress: null
+
+2017-12-06 13:38:06 - [TEST_STEP][PASSED] - setText: Text 'prAddress' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-06 13:38:06 - [MESSAGE][PASSED] - Text 'prAddress' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-06 13:38:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-06 13:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-06 13:38:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-06 13:38:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-06 13:38:08 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id="txtPropertyValuetion"]' not found)
+
+2017-12-06 13:38:40 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id="txtPropertyValuetion"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171206_133750\\1512547719997.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-06 13:37:51 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id="txtPropertyValuetion"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 13:37:51 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id="txtPropertyValuetion"]' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-06 13:37:51 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to set text '' of object 'Object Repository/input_PropertyInfo.ValuationRa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_PropertyInfo.ValuationRa' located by 'By.xpath: //*[@id="txtPropertyValuetion"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

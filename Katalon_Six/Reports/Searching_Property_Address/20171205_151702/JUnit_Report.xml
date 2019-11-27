@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching_Property_Address" time="116" tests="0" failures="1" errors="0">
+   <testsuite name="Searching_Property_Address" tests="0" failures="1" errors="0" time="116" timestamp="2017-12-05 15:17:04" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Searching_Property_Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171205_151702"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171205_151702\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171205_151702\\1512467340951.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="87b785be-5c61-4b47-aace-19432b271f87"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Searching property Address" classname="Test Cases/Searching property Address" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id(&quot;Grid&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-primary btn-xs btnViewPolicy&quot;]) = count(id(&quot;Grid&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-primary btn-xs btnViewPolicy&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-12-05 15:17:04 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"]) = count(id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"])]' not found)
+
+2017-12-05 15:17:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 15:17:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 15:17:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-05 15:17:14 - [MESSAGE][PASSED] - Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-05 15:17:14 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-05 15:17:14 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-05 15:17:14 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-05 15:17:14 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-05 15:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-05 15:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+2017-12-05 15:17:26 - [TEST_STEP][PASSED] - setText: Text '785 Saddle Ridge Trce Roswell, GA 30076 USA' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-05 15:17:26 - [MESSAGE][PASSED] - Text '785 Saddle Ridge Trce Roswell, GA 30076 USA' is set on object 'Object Repository/input_formattedAddress'
+
+2017-12-05 15:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-05 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/button_btnSearchAddress' is clicked on
+
+2017-12-05 15:18:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-05 15:18:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-05 15:18:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/p_RETRIEVE HISTORY' is clicked on
+
+2017-12-05 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/p_RETRIEVE HISTORY' is clicked on
+
+2017-12-05 15:18:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Yes' is clicked on
+
+2017-12-05 15:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Yes' is clicked on
+
+2017-12-05 15:18:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-05 15:18:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-05 15:18:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"]) = count(id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"])]' not found)
+
+2017-12-05 15:19:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"]) = count(id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"])]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_Five\\Reports\\Searching_Property_Address\\20171205_151702\\1512467340951.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-05 15:17:04 - [TEST_CASE][FAILED] - Test Cases/Searching property Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"]) = count(id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 15:17:04 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"]) = count(id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-05 15:17:04 - [TEST_SUITE][FAILED] - Searching_Property_Address: Test Cases/Searching property Address FAILED because (of) Unable to click on object 'Object Repository/a_View' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/a_View' located by 'By.xpath: //a[count(. | //*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295']) = count(//*[@href = '/RetrieveHistory/GetPolicy?PolicyInfoId=2295'])][count(. | //*[@class = 'btn btn-primary btn-xs btnViewPolicy']) = count(//*[@class = 'btn btn-primary btn-xs btnViewPolicy'])][count(. | //*[text() = 'View']) = count(//*[text() = 'View'])][count(. | id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"]) = count(id("Grid")/tbody[1]/tr[@class="odd"]/td[@class="text-center"]/a[@class="btn btn-primary btn-xs btnViewPolicy"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

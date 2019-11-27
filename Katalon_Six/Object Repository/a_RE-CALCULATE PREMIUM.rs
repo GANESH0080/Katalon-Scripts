@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_RE-CALCULATE PREMIUM</name>
+   <tag></tag>
+   <elementGuidId>f40ad04a-3ce4-4775-bc66-bdc0aaf0241d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;btnCalculateQuote&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[count(. | //*[@id = 'btnCalculateQuote']) = count(//*[@id = 'btnCalculateQuote'])][count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[@class = 'btn btn-default btnDuble']) = count(//*[@class = 'btn btn-default btnDuble'])][count(. | //*[text() = 'RE-CALCULATE PREMIUM']) = count(//*[text() = 'RE-CALCULATE PREMIUM'])][count(. | id(&quot;btnCalculateQuote&quot;)) = count(id(&quot;btnCalculateQuote&quot;))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnCalculateQuote</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default btnDuble</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RE-CALCULATE PREMIUM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnCalculateQuote&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

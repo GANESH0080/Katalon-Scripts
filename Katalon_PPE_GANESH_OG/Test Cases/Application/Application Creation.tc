@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Agent Creating an Application</description>
+   <name>Application Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbe48e22-7a1c-42a2-992e-36d00b9d3ac5</testCaseGuid>
+</TestCaseEntity>

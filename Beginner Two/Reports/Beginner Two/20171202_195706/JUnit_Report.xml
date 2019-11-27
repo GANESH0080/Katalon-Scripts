@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Beginner Two" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="Beginner Two" tests="1" failures="0" errors="0" time="19" timestamp="2017-12-02 19:57:08" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/Beginner Two">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Beginner Two\\Reports\\Beginner Two\\20171202_195706"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Beginner Two\\Reports\\Beginner Two\\20171202_195706\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="a7dbed29-e1b5-426e-be5b-dd57b3a030ce"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/PPE Login" classname="Test Cases/PPE Login" status="PASSED">
+         <system-out><![CDATA[2017-12-02 19:57:08 - [TEST_CASE][PASSED] - Test Cases/PPE Login: Test Cases/PPE Login
+
+2017-12-02 19:57:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-02 19:57:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-02 19:57:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-02 19:57:18 - [MESSAGE][PASSED] - Navigate to 'http://13.90.102.191:8066/' successfully
+
+2017-12-02 19:57:18 - [TEST_STEP][PASSED] - setText: Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-02 19:57:18 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/input_userName'
+
+2017-12-02 19:57:18 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-02 19:57:18 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/input_password'
+
+2017-12-02 19:57:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-02 19:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+2017-12-02 19:57:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Logout' is clicked on
+
+2017-12-02 19:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Logout' is clicked on
+
+2017-12-02 19:57:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-02 19:57:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-02 19:57:08 - [TEST_SUITE][PASSED] - Beginner Two: Test Cases/PPE Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

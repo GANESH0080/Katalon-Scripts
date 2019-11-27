@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,,,2018-01-19 14:16:59,2018-01-19 14:17:01,1.919s,ERROR
+,,,,,,
+Test Cases/QUOTE_CREATION,,Agent Quote process,2018-01-19 14:16:59,2018-01-19 14:17:00,0.496s,ERROR
+Statement - ChromeDriverManager.getInstance().setup(),,,2018-01-19 14:17:00,2018-01-19 14:17:00,0.004s,PASSED
+,,,,,,
+Test Cases/APPLICATION_CREATION,,,2018-01-19 14:17:00,2018-01-19 14:17:01,0.774s,FAILED
+setText,,,2018-01-19 14:17:00,2018-01-19 14:17:01,0.333s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,,,2018-01-19 14:17:01,2018-01-19 14:17:01,0.200s,FAILED
+click,,,2018-01-19 14:17:01,2018-01-19 14:17:01,0.037s,FAILED

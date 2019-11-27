@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_FOUNDATIONTYPE_PROPERTYPAGE</name>
+   <tag></tag>
+   <elementGuidId>679d8ad6-58c1-48d7-9874-c487e1ecc807</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ddlFoundationType&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Chrome 63.0.3239.132,,2018-01-31 15:48:51,2018-01-31 15:49:10,19.210s,PASSED
+,,,,,,
+Test Cases/Data_Driven_Testing,Chrome 63.0.3239.132,,2018-01-31 15:48:51,2018-01-31 15:49:09,17.550s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-01-31 15:48:52,2018-01-31 15:48:59,7.120s,PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-01-31 15:48:59,2018-01-31 15:49:00,1.431s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Get_Data_Using_Script),Chrome 63.0.3239.132,,2018-01-31 15:49:00,2018-01-31 15:49:00,0.024s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 63.0.3239.132,,2018-01-31 15:49:00,2018-01-31 15:49:00,0.012s,PASSED
+"Statement - state = data.internallyGetValue(0, 0)",Chrome 63.0.3239.132,,2018-01-31 15:49:00,2018-01-31 15:49:00,0.003s,PASSED
+"Statement - println(""State is"" + "" "" + state)",Chrome 63.0.3239.132,,2018-01-31 15:49:00,2018-01-31 15:49:00,0.004s,PASSED
+"Statement - If (state == ""GA"")",Chrome 63.0.3239.132,,2018-01-31 15:49:00,2018-01-31 15:49:00,0.001s,PASSED
+Statement - Else,Chrome 63.0.3239.132,,2018-01-31 15:49:00,2018-01-31 15:49:09,8.513s,PASSED

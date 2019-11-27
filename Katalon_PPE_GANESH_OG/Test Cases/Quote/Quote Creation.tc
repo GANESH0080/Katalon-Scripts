@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Agent Creating Quote</description>
+   <name>Quote Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14a01069-5384-4613-9445-0a92d4895448</testCaseGuid>
+</TestCaseEntity>
