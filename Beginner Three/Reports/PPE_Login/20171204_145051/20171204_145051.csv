@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE_Login,,,2017-12-04 14:50:52,2017-12-04 14:50:54,1.873s,FAILED
+,,,,,,
+Test Cases/Click Submit,,Clicking on SUBMIT button,2017-12-04 14:50:52,2017-12-04 14:50:53,1.079s,FAILED
+click,,,2017-12-04 14:50:53,2017-12-04 14:50:53,0.436s,FAILED
+,,,,,,
+Test Cases/Wait time,,,2017-12-04 14:50:54,2017-12-04 14:50:54,0.195s,FAILED
+waitForElementClickable,,,2017-12-04 14:50:54,2017-12-04 14:50:54,0.049s,FAILED
+,,,,,,
+Test Cases/Clicking on Logout Button,,,2017-12-04 14:50:54,2017-12-04 14:50:54,0.141s,FAILED
+click,,,2017-12-04 14:50:54,2017-12-04 14:50:54,0.022s,FAILED

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE_Login" time="23" tests="5" failures="0" errors="0">
+   <testsuite name="PPE_Login" tests="5" failures="0" errors="0" time="23" timestamp="2017-12-04 14:38:22" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Beginner Three\\Reports\\PPE_Login\\20171204_143820"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Beginner Three\\Reports\\PPE_Login\\20171204_143820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="b4dc1e51-872f-4841-9835-a23716f3dda1"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Open_Browser" classname="Test Cases/Open_Browser" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:38:22 - [TEST_CASE][PASSED] - Test Cases/Open_Browser: Test Cases/Open_Browser
+
+2017-12-04 14:38:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://13.90.102.191:8066/'
+
+2017-12-04 14:38:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://13.90.102.191:8066/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entering Username" classname="Test Cases/Entering Username" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:38:31 - [TEST_CASE][PASSED] - Test Cases/Entering Username: Test Cases/Entering Username
+
+2017-12-04 14:38:32 - [TEST_STEP][PASSED] - sendKeys: Keys 'ih.chelms' sent to object: 'Object Repository/input_userName'
+
+2017-12-04 14:38:32 - [MESSAGE][PASSED] - Keys 'ih.chelms' sent to object: 'Object Repository/input_userName']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entering Password" classname="Test Cases/Entering Password" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:38:33 - [TEST_CASE][PASSED] - Test Cases/Entering Password: Test Cases/Entering Password
+
+2017-12-04 14:38:33 - [TEST_STEP][PASSED] - sendKeys: Keys '10#Hammer' sent to object: 'Object Repository/input_password'
+
+2017-12-04 14:38:33 - [MESSAGE][PASSED] - Keys '10#Hammer' sent to object: 'Object Repository/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wait time" classname="Test Cases/Wait time" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:38:33 - [TEST_CASE][PASSED] - Test Cases/Wait time: Test Cases/Wait time
+
+2017-12-04 14:38:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/input_name' is clickable
+
+2017-12-04 14:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/input_name' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Click Submit" classname="Test Cases/Click Submit" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:38:33 - [TEST_CASE][PASSED] - Test Cases/Click Submit: Test Cases/Click Submit
+
+2017-12-04 14:38:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_name' is clicked on
+
+2017-12-04 14:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 14:38:22 - [TEST_SUITE][PASSED] - PPE_Login: Test Cases/Click Submit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

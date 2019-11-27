@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE_Login,Firefox 41.0,,2017-12-04 14:46:13,2017-12-04 14:46:33,19.486s,PASSED
+,,,,,,
+Test Cases/Open_Browser,Firefox 41.0,Try to open an Browser,2017-12-04 14:46:13,2017-12-04 14:46:23,9.683s,PASSED
+openBrowser,Firefox 41.0,,2017-12-04 14:46:14,2017-12-04 14:46:23,9.060s,PASSED
+,,,,,,
+Test Cases/Entering Username,Firefox 41.0,Entering Username in Username field.,2017-12-04 14:46:23,2017-12-04 14:46:24,0.321s,PASSED
+sendKeys,Firefox 41.0,,2017-12-04 14:46:23,2017-12-04 14:46:24,0.234s,PASSED
+,,,,,,
+Test Cases/Entering Password,Firefox 41.0,Entering Password in Password field.,2017-12-04 14:46:24,2017-12-04 14:46:24,0.303s,PASSED
+sendKeys,Firefox 41.0,,2017-12-04 14:46:24,2017-12-04 14:46:24,0.167s,PASSED
+,,,,,,
+Test Cases/Wait time,Firefox 41.0,,2017-12-04 14:46:24,2017-12-04 14:46:24,0.235s,PASSED
+waitForElementClickable,Firefox 41.0,,2017-12-04 14:46:24,2017-12-04 14:46:24,0.105s,PASSED
+,,,,,,
+Test Cases/Click Submit,Firefox 41.0,Clicking on SUBMIT button,2017-12-04 14:46:24,2017-12-04 14:46:30,6.154s,PASSED
+click,Firefox 41.0,,2017-12-04 14:46:24,2017-12-04 14:46:30,6.015s,PASSED
+,,,,,,
+Test Cases/Clicking on Logout Button,Firefox 41.0,,2017-12-04 14:46:31,2017-12-04 14:46:32,1.601s,PASSED
+click,Firefox 41.0,,2017-12-04 14:46:31,2017-12-04 14:46:32,1.458s,PASSED

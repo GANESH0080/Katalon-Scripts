@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE_Login" time="14" tests="2" failures="4" errors="0">
+   <testsuite name="PPE_Login" tests="2" failures="4" errors="0" time="14" timestamp="2017-12-04 14:48:35" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Beginner Three\\Reports\\PPE_Login\\20171204_144833"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Beginner Three\\Reports\\PPE_Login\\20171204_144833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 41.0"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="646428a8-7f5b-445e-b8f0-fd368723e853"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Click Submit" classname="Test Cases/Click Submit" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-12-04 14:48:35 - [TEST_CASE][FAILED] - Test Cases/Click Submit: Test Cases/Click Submit FAILED because (of) Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-04 14:48:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2017-12-04 14:48:35 - [TEST_CASE][FAILED] - Test Cases/Click Submit: Test Cases/Click Submit FAILED because (of) Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicking on Logout Button" classname="Test Cases/Clicking on Logout Button" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-12-04 14:48:36 - [TEST_CASE][FAILED] - Test Cases/Clicking on Logout Button: Test Cases/Clicking on Logout Button FAILED because (of) Unable to click on object 'Object Repository/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-04 14:48:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2017-12-04 14:48:36 - [TEST_CASE][FAILED] - Test Cases/Clicking on Logout Button: Test Cases/Clicking on Logout Button FAILED because (of) Unable to click on object 'Object Repository/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entering Password" classname="Test Cases/Entering Password" status="FAILED">
+         <failure type="FAILED" message="Unable to send keys '10#Hammer' to object 'Object Repository/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-12-04 14:48:36 - [TEST_CASE][FAILED] - Test Cases/Entering Password: Test Cases/Entering Password FAILED because (of) Unable to send keys '10#Hammer' to object 'Object Repository/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:37 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '10#Hammer' to object 'Object Repository/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-04 14:48:37 - [MESSAGE][FAILED] - Unable to send keys '10#Hammer' to object 'Object Repository/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2017-12-04 14:48:36 - [TEST_CASE][FAILED] - Test Cases/Entering Password: Test Cases/Entering Password FAILED because (of) Unable to send keys '10#Hammer' to object 'Object Repository/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entering Username" classname="Test Cases/Entering Username" status="FAILED">
+         <failure type="FAILED" message="Unable to send keys 'ih.chelms' to object 'Object Repository/input_userName' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-12-04 14:48:37 - [TEST_CASE][FAILED] - Test Cases/Entering Username: Test Cases/Entering Username FAILED because (of) Unable to send keys 'ih.chelms' to object 'Object Repository/input_userName' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:37 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'ih.chelms' to object 'Object Repository/input_userName' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-04 14:48:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-04 14:48:37 - [MESSAGE][FAILED] - Unable to send keys 'ih.chelms' to object 'Object Repository/input_userName' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2017-12-04 14:48:37 - [TEST_CASE][FAILED] - Test Cases/Entering Username: Test Cases/Entering Username FAILED because (of) Unable to send keys 'ih.chelms' to object 'Object Repository/input_userName' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open_Browser" classname="Test Cases/Open_Browser" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:48:37 - [TEST_CASE][PASSED] - Test Cases/Open_Browser: Test Cases/Open_Browser
+
+2017-12-04 14:48:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://13.90.102.191:8066/'
+
+2017-12-04 14:48:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://13.90.102.191:8066/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wait time" classname="Test Cases/Wait time" status="PASSED">
+         <system-out><![CDATA[2017-12-04 14:48:49 - [TEST_CASE][PASSED] - Test Cases/Wait time: Test Cases/Wait time
+
+2017-12-04 14:48:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/input_name' is clickable
+
+2017-12-04 14:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/input_name' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 14:48:35 - [TEST_SUITE][FAILED] - PPE_Login: Test Cases/Click Submit FAILED because (of) Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2017-12-04 14:48:35 - [TEST_SUITE][FAILED] - PPE_Login: Test Cases/Click Submit FAILED because (of) Unable to click on object 'Object Repository/input_name' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

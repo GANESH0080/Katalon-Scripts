@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entering Username in Username field.</description>
+   <name>Entering Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42da06da-91b7-4526-b163-4835fb92b585</testCaseGuid>
+</TestCaseEntity>

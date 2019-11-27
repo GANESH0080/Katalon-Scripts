@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE_Login,Chrome 65.0.3325.181,,2018-05-02 17:14:02,2018-05-02 17:14:45,42.958s,FAILED
+,,,,,,
+Test Cases/Open_Browser,Chrome 65.0.3325.181,Try to open an Browser,2018-05-02 17:14:02,2018-05-02 17:14:09,6.533s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-05-02 17:14:03,2018-05-02 17:14:09,6.070s,PASSED
+,,,,,,
+Test Cases/Entering Username,Chrome 65.0.3325.181,Entering Username in Username field.,2018-05-02 17:14:09,2018-05-02 17:14:10,0.807s,FAILED
+sendKeys,Chrome 65.0.3325.181,,2018-05-02 17:14:09,2018-05-02 17:14:10,0.650s,FAILED
+,,,,,,
+Test Cases/Entering Password,Chrome 65.0.3325.181,Entering Password in Password field.,2018-05-02 17:14:10,2018-05-02 17:14:10,0.592s,FAILED
+sendKeys,Chrome 65.0.3325.181,,2018-05-02 17:14:10,2018-05-02 17:14:10,0.407s,FAILED
+,,,,,,
+Test Cases/Wait time,Chrome 65.0.3325.181,,2018-05-02 17:14:10,2018-05-02 17:14:11,0.469s,PASSED
+waitForElementClickable,Chrome 65.0.3325.181,,2018-05-02 17:14:10,2018-05-02 17:14:11,0.320s,PASSED
+,,,,,,
+Test Cases/Click Submit,Chrome 65.0.3325.181,Clicking on SUBMIT button,2018-05-02 17:14:11,2018-05-02 17:14:11,0.472s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-02 17:14:11,2018-05-02 17:14:11,0.335s,PASSED
+,,,,,,
+Test Cases/Wait for Clicking LogOut button,Chrome 65.0.3325.181,,2018-05-02 17:14:11,2018-05-02 17:14:12,0.183s,PASSED
+Statement - return null,Chrome 65.0.3325.181,,2018-05-02 17:14:12,2018-05-02 17:14:12,0.001s,PASSED
+,,,,,,
+Test Cases/Clicking on Logout Button,Chrome 65.0.3325.181,,2018-05-02 17:14:12,2018-05-02 17:14:43,31.628s,FAILED
+click,Chrome 65.0.3325.181,,2018-05-02 17:14:12,2018-05-02 17:14:43,31.477s,FAILED
