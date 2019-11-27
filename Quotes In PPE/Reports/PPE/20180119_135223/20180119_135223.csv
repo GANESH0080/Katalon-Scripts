@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,,,2018-01-19 13:52:24,2018-01-19 13:52:26,1.446s,ERROR
+,,,,,,
+Test Cases/QUOTE_CREATION,,Agent Quote process,2018-01-19 13:52:24,2018-01-19 13:52:25,0.602s,ERROR
+"Statement - java.lang.System.setProperty(""webdriver.chrome.driver"", ""E:/chromedriver.exe"")",,,2018-01-19 13:52:25,2018-01-19 13:52:25,0.003s,PASSED
+Statement - driver = new org.openqa.selenium.chrome.ChromeDriver(),,,2018-01-19 13:52:25,2018-01-19 13:52:25,0.080s,PASSED
+,,,,,,
+Test Cases/APPLICATION_CREATION,,,2018-01-19 13:52:25,2018-01-19 13:52:25,0.282s,ERROR
+"Statement - java.lang.System.setProperty(""webdriver.chrome.driver"", ""E:/chromedriver.exe"")",,,2018-01-19 13:52:25,2018-01-19 13:52:25,0.002s,PASSED
+Statement - driver = new org.openqa.selenium.chrome.ChromeDriver(),,,2018-01-19 13:52:25,2018-01-19 13:52:25,0.009s,PASSED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,,,2018-01-19 13:52:25,2018-01-19 13:52:26,0.124s,ERROR
+"Statement - java.lang.System.setProperty(""webdriver.chrome.driver"", ""E:/chromedriver.exe"")",,,2018-01-19 13:52:26,2018-01-19 13:52:26,0.001s,PASSED
+Statement - driver = new org.openqa.selenium.chrome.ChromeDriver(),,,2018-01-19 13:52:26,2018-01-19 13:52:26,0.010s,PASSED

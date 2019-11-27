@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Firefox 46.0,,2019-05-15 16:17:08,2019-05-15 16:17:50,41.525s,FAILED
+,,,,,,
+Test Cases/Quote Creation/Quotes,Firefox 46.0,,2019-05-15 16:17:09,2019-05-15 16:17:48,39.029s,FAILED
+"Statement - url = ""http://test.cogitate.us/PPE.Test/""",Firefox 46.0,,2019-05-15 16:17:10,2019-05-15 16:17:10,0.002s,PASSED
+openBrowser,Firefox 46.0,,2019-05-15 16:17:10,2019-05-15 16:17:27,17.177s,PASSED
+waitForPageLoad,Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.112s,PASSED
+maximizeWindow,Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.041s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Quote-PPEPROPERTYDATA),Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.019s,PASSED
+Statement - propertyDATARows = propertyDATA.getRowNumbers(),Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.009s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.007s,PASSED
+Statement - genericDATARows = genericDATA.getRowNumbers(),Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.003s,PASSED
+"Statement - userName = """"",Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.001s,PASSED
+"Statement - password = """"",Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.001s,PASSED
+"Statement - isUsed = ""N""",Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:27,0.001s,PASSED
+"Statement - For ([propertyDataRowCounter = 0, propertyDataRowCounter < propertyDATARows, (propertyDataRowCounter++)])",Firefox 46.0,,2019-05-15 16:17:27,2019-05-15 16:17:48,20.876s,FAILED

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="7" tests="0" failures="2" errors="0">
+   <testsuite name="PPE" tests="0" failures="2" errors="0" time="7" timestamp="2018-02-02 19:50:31" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180202_195029"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180202_195029\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+      </properties>
+      <testcase name="Test Cases/QUOTE_CREATION" classname="Test Cases/QUOTE_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)"/>
+         <system-out><![CDATA[2018-02-02 19:50:31 - [TEST_CASE][FAILED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - propertyDataRowCounter = 0: null
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - configDataRowCounter = 0: null
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File): Test data is internal data, reading internal data
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - obj = data.get(propertyDataRowCounter): null
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - obj.toString().replace("N", "Y"): null
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - data.add(obj): null
+
+2018-02-02 19:50:32 - [TEST_STEP][PASSED] - Statement - println(obj): null
+
+2018-02-02 19:50:32 - [TEST_STEP][FAILED] - com.PPE.url_Navigation.gotoURL: Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)
+
+2018-02-02 19:50:34 - [MESSAGE][WARNING] - Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk
+
+2018-02-02 19:50:34 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)
+
+2018-02-02 19:50:34 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)]]></system-out>
+         <system-err><![CDATA[2018-02-02 19:50:31 - [TEST_CASE][FAILED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APPLICATION_CREATION" classname="Test Cases/APPLICATION_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-02 19:50:34 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-02 19:50:35 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2018-02-02 19:50:35 - [TEST_STEP][PASSED] - Statement - propertyDataRowCounter = 0: null
+
+2018-02-02 19:50:35 - [TEST_STEP][FAILED] - com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage: Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-02 19:50:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-02 19:50:39 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-02 19:50:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-02 19:50:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-02 19:50:34 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_TOAPPLICATION' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-02 19:50:31 - [TEST_SUITE][FAILED] - PPE: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)]]></system-out>
+      <system-err><![CDATA[2018-02-02 19:50:31 - [TEST_SUITE][FAILED] - PPE: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066/' (Root cause: java.lang.UnsatisfiedLinkError: Failed to create temporary file for /com/sun/jna/win32-x86-64/jnidispatch.dll library: There is not enough space on the disk)]]></system-err>
+   </testsuite>
+</testsuites>

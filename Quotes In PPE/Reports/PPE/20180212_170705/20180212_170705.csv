@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Chrome 63.0.3239.132,,2018-02-12 17:07:07,2018-02-12 17:08:27,1m - 20.358s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,Chrome 63.0.3239.132,Agent Quote process,2018-02-12 17:07:07,2018-02-12 17:08:06,58.576s,FAILED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.002s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.002s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.028s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.048s,PASSED
+Statement - obj = data.get(propertyDataRowCounter),Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.010s,PASSED
+"Statement - obj.toString().replace(""N"", ""Y"")",Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.004s,PASSED
+Statement - data.add(obj),Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.003s,PASSED
+Statement - println(obj),Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:08,0.009s,PASSED
+com.PPE.url_Navigation.gotoURL,Chrome 63.0.3239.132,,2018-02-12 17:07:08,2018-02-12 17:07:34,26.424s,PASSED
+com.PPE.IncorrectLogin.login,Chrome 63.0.3239.132,,2018-02-12 17:07:34,2018-02-12 17:08:06,31.519s,FAILED
+,,,,,,
+Test Cases/APPLICATION_CREATION,Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:17,11.639s,FAILED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:06,0.005s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:06,0.003s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:06,0.029s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:06,0.009s,PASSED
+Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address),Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:06,0.005s,PASSED
+"Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, ""value"")",Chrome 63.0.3239.132,,2018-02-12 17:08:06,2018-02-12 17:08:17,11.338s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,Chrome 63.0.3239.132,,2018-02-12 17:08:17,2018-02-12 17:08:26,8.262s,FAILED
+Statement - UWEndorsementDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-12 17:08:18,2018-02-12 17:08:18,0.001s,PASSED
+Statement - EndorsementDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(UW_EndorsementData),Chrome 63.0.3239.132,,2018-02-12 17:08:18,2018-02-12 17:08:18,0.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-12 17:08:18,2018-02-12 17:08:26,8.066s,FAILED

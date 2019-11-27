@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="391" tests="4" failures="5" errors="0">
+   <testsuite name="PPE" tests="4" failures="5" errors="0" time="391" timestamp="2018-02-21 18:27:02" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218086667.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218118324.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218149913.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218181341.png, D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218212758.png"/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="eb80b4e408ede8d89378f716676fbc3d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/URL Navigation/Navigate To URL" classname="Test Cases/URL Navigation/Navigate To URL" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:27:02 - [TEST_CASE][PASSED] - Test Cases/URL Navigation/Navigate To URL: Test Cases/URL Navigation/Navigate To URL
+
+2018-02-21 18:27:03 - [TEST_STEP][PASSED] - com.PPE.url_Navigation.gotoURL: com.PPE.url_Navigation.gotoURL is PASSED
+
+2018-02-21 18:27:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://test.cogitate.us/PPE.Test/'
+
+2018-02-21 18:27:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-21 18:27:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-21 18:27:10 - [MESSAGE][PASSED] - com.PPE.url_Navigation.gotoURL is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login In PPE Application/Incorrect Attempt for Login" classname="Test Cases/Login In PPE Application/Incorrect Attempt for Login" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:27:10 - [TEST_CASE][PASSED] - Test Cases/Login In PPE Application/Incorrect Attempt for Login: Test Cases/Login In PPE Application/Incorrect Attempt for Login
+
+2018-02-21 18:27:10 - [TEST_STEP][PASSED] - com.PPE.IncorrectLogin.login: com.PPE.IncorrectLogin.login is PASSED
+
+2018-02-21 18:27:11 - [MESSAGE][PASSED] - Text '125634' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:27:11 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:27:18 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:27:18 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:27:18 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:27:25 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:27:25 - [MESSAGE][PASSED] - Text 'ih.jbutler' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:27:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:27:32 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:27:32 - [MESSAGE][PASSED] - Text 'Ganesh' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:27:32 - [MESSAGE][PASSED] - Text 'Salunkhe' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:27:39 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:27:39 - [MESSAGE][PASSED] - Text 'ih.william' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:27:39 - [MESSAGE][PASSED] - Text 'ih.chelms' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:27:46 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:27:46 - [MESSAGE][PASSED] - com.PPE.IncorrectLogin.login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login In PPE Application/Login With Correct Credentials" classname="Test Cases/Login In PPE Application/Login With Correct Credentials" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:27:46 - [TEST_CASE][PASSED] - Test Cases/Login In PPE Application/Login With Correct Credentials: Test Cases/Login In PPE Application/Login With Correct Credentials
+
+2018-02-21 18:27:46 - [TEST_STEP][PASSED] - com.PPE.Login.correctlogin: com.PPE.Login.correctlogin is PASSED
+
+2018-02-21 18:27:46 - [MESSAGE][PASSED] - Text 'ih.va1' is set on object 'Object Repository/Quote_OR/txtfield_USERNAME'
+
+2018-02-21 18:27:47 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote_OR/txtfield_PASSWORD'
+
+2018-02-21 18:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn-LOGIN' is clicked on
+
+2018-02-21 18:27:49 - [MESSAGE][PASSED] - com.PPE.Login.correctlogin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Quote Creation/Creating Quote" classname="Test Cases/Quote Creation/Creating Quote" status="PASSED">
+         <system-out><![CDATA[2018-02-21 18:27:49 - [TEST_CASE][PASSED] - Test Cases/Quote Creation/Creating Quote: Test Cases/Quote Creation/Creating Quote
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - Statement - propertyDataRowCounter = 0: null
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - Statement - configDataRowCounter = 0: null
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File): Test data is internal data, reading internal data
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - Statement - If (genericDATA.internallyGetValue("STATE", configDataRowCounter) == "GA"): null
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - Statement - Else: Delayed 6 second(s)
+
+2018-02-21 18:27:49 - [TEST_STEP][PASSED] - setText: Text '2779 Washington Blvd Arlington, VA 22201 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-02-21 18:27:50 - [MESSAGE][PASSED] - Text '2779 Washington Blvd Arlington, VA 22201 USA' is set on object 'Object Repository/Quote_OR/txtfield_ADDRESS_ON_LANDING_PAGE'
+
+2018-02-21 18:27:50 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-02-21 18:27:56 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-02-21 18:27:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-02-21 18:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEARCH_ADDRESS' is clicked on
+
+2018-02-21 18:28:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-21 18:28:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-21 18:28:02 - [TEST_STEP][PASSED] - com.PPE.QuotePropertyDataSelection.QuoteCreation: com.PPE.QuotePropertyDataSelection.QuoteCreation is PASSED
+
+2018-02-21 18:28:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_PROPERTY_TYPE'
+
+2018-02-21 18:28:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-02-21 18:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-02-21 18:28:03 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-02-21 18:28:03 - [MESSAGE][PASSED] - Text '75000' is set on object 'Object Repository/Quote_OR/txtfield_HOME_VALUATION'
+
+2018-02-21 18:28:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:28:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-02-21 18:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-02-21 18:28:06 - [MESSAGE][PASSED] - Text '1968' is set on object 'Object Repository/Quote_OR/txtbx_YEARHOMEBUILD'
+
+2018-02-21 18:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_GETQUOTE' is clicked on
+
+2018-02-21 18:28:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SENDQUOTE' is clicked on
+
+2018-02-21 18:28:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-21 18:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-02-21 18:28:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-21 18:28:12 - [MESSAGE][PASSED] - Text 'Aron' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_FIRSTNAME'
+
+2018-02-21 18:28:13 - [MESSAGE][PASSED] - Text 'Lyon' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_LASTNAME'
+
+2018-02-21 18:28:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-21 18:28:16 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_CONTACTNUMBER'
+
+2018-02-21 18:28:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-21 18:28:19 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Quote_OR/txtfield_SENDQUOTE_EMAIL'
+
+2018-02-21 18:28:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:28:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_SEND_QUOTE_DETAILS' is clicked on
+
+2018-02-21 18:28:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:28:28 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Quote_OR/drp_CONSTRUCTION_TYPE'
+
+2018-02-21 18:28:36 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-02-21 18:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote_OR/btn_RECALCULATE_PREMIUM' is clicked on
+
+2018-02-21 18:28:36 - [MESSAGE][PASSED] - com.PPE.QuotePropertyDataSelection.QuoteCreation is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Application Creation/Creating an Application" classname="Test Cases/Application Creation/Creating an Application" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)"/>
+         <system-out><![CDATA[2018-02-21 18:28:36 - [TEST_CASE][FAILED] - Test Cases/Application Creation/Creating an Application: Test Cases/Application Creation/Creating an Application FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - propertyDataRowCounter = 0: null
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - configDataRowCounter = 0: null
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File): Test data is internal data, reading internal data
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address): Finding Test Object with id 'Object Repository/Endorsement_OR/get_Address'
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, "value"): Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '2779 Washington Blvd, Arlington, VA 22201, USA'
+
+2018-02-21 18:28:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Endorsement_OR/get_Address' is: '2779 Washington Blvd, Arlington, VA 22201, USA'
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - println(propertyaddress): null
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - Statement - propertyaddress = propertyaddress: null
+
+2018-02-21 18:28:36 - [TEST_STEP][PASSED] - com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage: com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage is PASSED
+
+2018-02-21 18:28:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_TOAPPLICATION' is clicked on
+
+2018-02-21 18:28:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn-YES_IS_BNESS_PREMISES' is clicked on
+
+2018-02-21 18:28:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn-YES_FOOT_TRAFFIC' is clicked on
+
+2018-02-21 18:28:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:28:50 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Application_OR/txtfield-Traffic_Percentage'
+
+2018-02-21 18:28:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-21 18:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-02-21 18:28:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-21 18:28:56 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Application_OR/txtfield-Traffic_Percentage'
+
+2018-02-21 18:29:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_CONTINUE_UW_QUESTIONS' is clicked on
+
+2018-02-21 18:29:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-21 18:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME' is clicked on
+
+2018-02-21 18:29:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME'
+
+2018-02-21 18:29:04 - [MESSAGE][PASSED] - Text 'Marshal' is set on object 'Object Repository/Application_OR/txtfield_INSURED_FIRSTNAME'
+
+2018-02-21 18:29:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Application_OR/txtfield_INSURED_MIDDLENAME'
+
+2018-02-21 18:29:04 - [MESSAGE][PASSED] - Text 'Hasting' is set on object 'Object Repository/Application_OR/txtfield_INSURED_MIDDLENAME'
+
+2018-02-21 18:29:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Application_OR/txtfield_INSURED_LASTNAME'
+
+2018-02-21 18:29:04 - [MESSAGE][PASSED] - Text 'Cara' is set on object 'Object Repository/Application_OR/txtfield_INSURED_LASTNAME'
+
+2018-02-21 18:29:04 - [MESSAGE][PASSED] - Text '09/10/1999' is set on object 'Object Repository/Application_OR/txtfield_INSURED_DOB'
+
+2018-02-21 18:29:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:29:10 - [MESSAGE][PASSED] - Text 'gsalunkhe@cogitate.us' is set on object 'Object Repository/Application_OR/txtfield_INSURED_EMAIL'
+
+2018-02-21 18:29:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:29:15 - [MESSAGE][PASSED] - Text '9768180080' is set on object 'Object Repository/Application_OR/txtfield_INSURED_CONTACTNUMBER'
+
+2018-02-21 18:29:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:29:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generic_OR/hdnPolicyInfoId' is: '3218'
+
+2018-02-21 18:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_POLICYHOLDER_SAVEANDCONTINUE' is clicked on
+
+2018-02-21 18:29:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-21 18:29:21 - [MESSAGE][PASSED] - com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage is PASSED
+
+2018-02-21 18:29:21 - [TEST_STEP][PASSED] - com.PPE.Saving_PropertyInfo_Page.PropertyPage: com.PPE.Saving_PropertyInfo_Page.PropertyPage is PASSED
+
+2018-02-21 18:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE' is clicked on
+
+2018-02-21 18:29:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-21 18:29:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Application_OR/drp_ROOFTYPE_PROPERTYPAGE'
+
+2018-02-21 18:29:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:29:27 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Application_OR/drp_FOUNDATIONTYPE_PROPERTYPAGE'
+
+2018-02-21 18:29:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:29:29 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Application_OR/drp_HEATINGTYPE_PROPERTYPAGE'
+
+2018-02-21 18:29:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-02-21 18:29:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ROOFAGE_POPUP' is clicked on
+
+2018-02-21 18:29:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-02-21 18:29:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-02-21 18:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_YES_ELECTRICALAGE_POPUP' is clicked on
+
+2018-02-21 18:29:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:29:52 - [MESSAGE][PASSED] - com.PPE.Saving_PropertyInfo_Page.PropertyPage is PASSED
+
+2018-02-21 18:29:52 - [TEST_STEP][PASSED] - com.PPE.Policy_Creation.ApplicationBind: com.PPE.Policy_Creation.ApplicationBind is PASSED
+
+2018-02-21 18:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-02-21 18:29:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/Application_OR/chkbx_AGREEMENT' is checked
+
+2018-02-21 18:30:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-21 18:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OCCUPANYPAGE_SAVEANDCONTINUE' is clicked on
+
+2018-02-21 18:30:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SIGNAPPLICATION_AGENT' is clicked on
+
+2018-02-21 18:30:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:30:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Application_OR/get_INSUREDNAME_APPLICATION FORMSUMMARY' is: 'Marshal Hasting Cara'
+
+2018-02-21 18:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_INSURED_SIGNATURE' is clicked on
+
+2018-02-21 18:30:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE' is clicked on
+
+2018-02-21 18:30:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:30:56 - [MESSAGE][PASSED] - Text 'Marshal Hasting Cara' is set on object 'Object Repository/Application_OR/txtbx_INSURED_SIGNATURE'
+
+2018-02-21 18:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_INSURED_SIGNATURE' is clicked on
+
+2018-02-21 18:30:56 - [MESSAGE][PASSED] - com.PPE.Policy_Creation.ApplicationBind is PASSED
+
+2018-02-21 18:30:56 - [TEST_STEP][PASSED] - Statement - otpQuery = "SELECT TOP 1 OtpGenerated FROM PPE_ApplicationForms_trn where PolicyInfoId = " + policyInfoId + " Order BY ModifiedDateTime DESC": null
+
+2018-02-21 18:30:56 - [TEST_STEP][PASSED] - Statement - println("otpQuery" + " " + otpQuery): null
+
+2018-02-21 18:30:56 - [TEST_STEP][PASSED] - com.PPE.Database_Connection.connectDB: com.PPE.Database_Connection.connectDB is PASSED
+
+2018-02-21 18:30:58 - [MESSAGE][PASSED] - com.PPE.Database_Connection.connectDB is PASSED
+
+2018-02-21 18:30:58 - [TEST_STEP][PASSED] - Statement - recordset = CustomKeywords.com.PPE.Database_Connection.executeQuery(otpQuery): com.PPE.Database_Connection.executeQuery is PASSED
+
+2018-02-21 18:30:58 - [MESSAGE][PASSED] - com.PPE.Database_Connection.executeQuery is PASSED
+
+2018-02-21 18:30:58 - [TEST_STEP][PASSED] - Statement - otp = 0: null
+
+2018-02-21 18:30:58 - [TEST_STEP][PASSED] - Statement - While (recordset.next()): null
+
+2018-02-21 18:30:58 - [TEST_STEP][PASSED] - Statement - otp = recordset.getObject("OtpGenerated"): null
+
+2018-02-21 18:30:58 - [TEST_STEP][PASSED] - Statement - println("otp" + " " + otp): null
+
+2018-02-21 18:30:58 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-02-21 18:31:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-21 18:31:08 - [TEST_STEP][PASSED] - Statement - txtOtp = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application_OR/txtfield-OTP): Finding Test Object with id 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-02-21 18:31:08 - [TEST_STEP][PASSED] - setText: Text '7126' is set on object 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-02-21 18:31:08 - [MESSAGE][PASSED] - Text '7126' is set on object 'Object Repository/Application_OR/txtfield-OTP'
+
+2018-02-21 18:31:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-21 18:31:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-21 18:31:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_OTP_VERIFY' is clicked on
+
+2018-02-21 18:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_OTP_VERIFY' is clicked on
+
+2018-02-21 18:31:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-21 18:31:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_AGENT_SIGNATURE' is clicked on
+
+2018-02-21 18:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_AGENT_SIGNATURE' is clicked on
+
+2018-02-21 18:31:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-21 18:31:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:31:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE' is clicked on
+
+2018-02-21 18:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE' is clicked on
+
+2018-02-21 18:31:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-21 18:31:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:31:19 - [TEST_STEP][PASSED] - Statement - If (genericDATA.internallyGetValue("STATE", configDataRowCounter) == "GA"): null
+
+2018-02-21 18:31:19 - [TEST_STEP][PASSED] - Statement - Else: Delayed 2 second(s)
+
+2018-02-21 18:31:19 - [TEST_STEP][PASSED] - setText: Text 'Jeff Buttler' is set on object 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE'
+
+2018-02-21 18:31:19 - [MESSAGE][PASSED] - Text 'Jeff Buttler' is set on object 'Object Repository/Application_OR/txtbx_AGENT_SIGNATURE'
+
+2018-02-21 18:31:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-21 18:31:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-21 18:31:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Application_OR/btn_SUBMIT_AGENT_SIGNATURE' is clicked on
+
+2018-02-21 18:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Application_OR/btn_SUBMIT_AGENT_SIGNATURE' is clicked on
+
+2018-02-21 18:31:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-21 18:31:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-21 18:31:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)
+
+2018-02-21 18:31:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218086667.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:28:36 - [TEST_CASE][FAILED] - Test Cases/Application Creation/Creating an Application: Test Cases/Application Creation/Creating an Application FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UW Endorsement/UW END" classname="Test Cases/UW Endorsement/UW END" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id=&quot;btnAdvanceFilter&quot;]/label' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:31:27 - [TEST_CASE][FAILED] - Test Cases/UW Endorsement/UW END: Test Cases/UW Endorsement/UW END FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-02-21 18:31:27 - [TEST_STEP][FAILED] - com.PPE.Endorsement_UW.EndorsementByUW: Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+
+2018-02-21 18:31:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218118324.png]]
+
+2018-02-21 18:31:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:31:27 - [TEST_CASE][FAILED] - Test Cases/UW Endorsement/UW END: Test Cases/UW Endorsement/UW END FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' located by 'By.xpath: //*[@id="btnAdvanceFilter"]/label' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agent Endorsment Req/Agent END" classname="Test Cases/Agent Endorsment Req/Agent END" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id=&quot;txtUserName&quot;]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:31:58 - [TEST_CASE][FAILED] - Test Cases/Agent Endorsment Req/Agent END: Test Cases/Agent Endorsment Req/Agent END FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:31:58 - [TEST_STEP][FAILED] - com.PPE.Endorsement_Agent.EndorsementByUW: Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:32:30 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218149913.png]]
+
+2018-02-21 18:32:30 - [MESSAGE][FAILED] - Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:31:58 - [TEST_CASE][FAILED] - Test Cases/Agent Endorsment Req/Agent END: Test Cases/Agent Endorsment Req/Agent END FAILED because (of) Unable to set text 'ih.chelms' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Endorsement Approval/END Appproval" classname="Test Cases/Endorsement Approval/END Appproval" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id=&quot;txtUserName&quot;]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:32:30 - [TEST_CASE][FAILED] - Test Cases/Endorsement Approval/END Appproval: Test Cases/Endorsement Approval/END Appproval FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:32:30 - [TEST_STEP][FAILED] - com.PPE.Endorsement_Approval.EndorsementApprovedUW: Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+
+2018-02-21 18:33:01 - [MESSAGE][FAILED] - Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218181341.png]]
+
+2018-02-21 18:33:01 - [MESSAGE][FAILED] - Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:32:30 - [TEST_CASE][FAILED] - Test Cases/Endorsement Approval/END Appproval: Test Cases/Endorsement Approval/END Appproval FAILED because (of) Unable to set text 'ih.william' of object 'Object Repository/Quote_OR/txtfield_USERNAME' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote_OR/txtfield_USERNAME' located by 'By.xpath: //*[@id="txtUserName"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UW Cancellation/UW CAN" classname="Test Cases/UW Cancellation/UW CAN" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id=&quot;divApplicationList&quot;]/tr/td[6]' not found)"/>
+         <system-out><![CDATA[2018-02-21 18:33:01 - [TEST_CASE][FAILED] - Test Cases/UW Cancellation/UW CAN: Test Cases/UW Cancellation/UW CAN FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+
+2018-02-21 18:33:01 - [TEST_STEP][FAILED] - com.PPE.Cancellation_UW.CancellationByUW: Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+
+2018-02-21 18:33:33 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Katalon_PPE_GANESH\\Reports\\PPE\\20180221_182701\\1519218212758.png]]
+
+2018-02-21 18:33:33 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-21 18:33:01 - [TEST_CASE][FAILED] - Test Cases/UW Cancellation/UW CAN: Test Cases/UW Cancellation/UW CAN FAILED because (of) Unable to get text of object 'Object Repository/Endorsement_OR/get_POLICYNUMBER' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement_OR/get_POLICYNUMBER' located by 'By.xpath: //*[@id="divApplicationList"]/tr/td[6]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-21 18:27:02 - [TEST_SUITE][FAILED] - PPE: Test Cases/Application Creation/Creating an Application FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)]]></system-out>
+      <system-err><![CDATA[2018-02-21 18:27:02 - [TEST_SUITE][FAILED] - PPE: Test Cases/Application Creation/Creating an Application FAILED because (of) Unable to click on object 'Object Repository/Application_OR/btn_SURPLUSLINE_ACK' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GSALUN~1\AppData\Local\Temp\scoped_dir3560_5567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb80b4e408ede8d89378f716676fbc3d)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Quote-PPEPROPERTYDATA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>cc554e33-5e1d-4498-92bd-6f488c412844</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>GA 1344+Duncan+Ave+Macon%2C+GA+31201+USA Single-Family 1 75000 Frame 1 1980 Steve Smith 9768180080 gsalunkhe%40cogitate.us N</data>
+   <data>GA 1380+Duncan+Ave+Macon%2C+GA+31201+USA Single-Family 1 250000 Masonry 2 1985 Micheal Clark 8080960960 npuranik%40cogitate.us N</data>
+   <data>VA 518+N+Nelson+St+Arlington%2C+VA+22203+USA Single-Family 1 365412 Masonry+Veneer 3 1997 James Hazzlewood 9768180080 nkadam%40cogitate.us N</data>
+   <data>VA 3200+4th+St+N+Arlington%2C+VA+22201+USA Single-Family 1 100000 Masonry 2 2000 Hendy Nicols 9768180080 awankhede%40cogitate.us N</data>
+   <data>VA 3103+9th+St+N+Arlington%2C+VA+22201+USA Single-Family 1 400000 Masonry+Veneer 3 2005 Ross Taylor 9768180080 gsalunkhe%40cogitate.us N</data>
+   <data>NC 1209+Alma+St+Durham%2C+NC+27703+USA Single-Family 1 145236 Frame 1 2006 Kiron Marshal 9768180080 gsalunkhe%40cogitate.us N</data>
+   <data>GA 2132+Jasamine+Ave+Macon%2C+GA+31204+USA Single-Family 1 124589 Masonry 2 2018 Taibu Martin 9768180080 gsalunkhe%40cogitate.us N</data>
+   <data>NC 702+Park+Ave+Durham%2C+NC+27703+USA Single-Family 1 232541 Masonry+Veneer 3 2001 Raza Hendricks 9768180080 gsalunkhe%40cogitate.us N</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>State</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Property_Address</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>PropertyTypeName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>PropertyTypeID</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>HomeValuation</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>ConstructionTypeName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>ConstructionTypeID</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>HomeBuildYear</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>P_FirstName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>P_LastName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>ContactNumber</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>Email</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>12</columnIndex>
+      <name>Is_Used</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

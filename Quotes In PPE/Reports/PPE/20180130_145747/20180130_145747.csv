@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Chrome 63.0.3239.132,,2018-01-30 14:57:49,2018-01-30 15:03:31,5m - 42.101s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,Chrome 63.0.3239.132,Agent Quote process,2018-01-30 14:57:49,2018-01-30 15:02:53,5m - 4.185s,FAILED
+openBrowser,Chrome 63.0.3239.132,,2018-01-30 14:57:50,2018-01-30 15:02:53,5m - 3.736s,FAILED
+,,,,,,
+Test Cases/APPLICATION_CREATION,Chrome 63.0.3239.132,,2018-01-30 15:02:53,2018-01-30 15:03:29,35.627s,ERROR
+setText,Chrome 63.0.3239.132,,2018-01-30 15:02:54,2018-01-30 15:03:29,35.433s,PASSED
+,,,,,,
+Test Cases/ENDORSEMENT_CREATION,Chrome 63.0.3239.132,,2018-01-30 15:03:29,2018-01-30 15:03:29,0.250s,FAILED
+click,Chrome 63.0.3239.132,,2018-01-30 15:03:29,2018-01-30 15:03:29,0.058s,FAILED
+,,,,,,
+Test Cases/AGENT_ENDORSEMENT_REQUEST,Chrome 63.0.3239.132,Agent create an ENDORSEMENT and sent an Endorsement request for UW approval.,2018-01-30 15:03:29,2018-01-30 15:03:30,0.216s,FAILED
+setText,Chrome 63.0.3239.132,,2018-01-30 15:03:30,2018-01-30 15:03:30,0.023s,FAILED
+,,,,,,
+Test Cases/ENDORSEMENT_APPROVAL_UW,Chrome 63.0.3239.132,UW approving an ENDORSEMENT Request.,2018-01-30 15:03:30,2018-01-30 15:03:30,0.129s,FAILED
+setText,Chrome 63.0.3239.132,,2018-01-30 15:03:30,2018-01-30 15:03:30,0.047s,FAILED
+,,,,,,
+Test Cases/gettext,Chrome 63.0.3239.132,,2018-01-30 15:03:30,2018-01-30 15:03:30,0.219s,FAILED
+Statement - policynumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_POLICYNUMBER)),Chrome 63.0.3239.132,,2018-01-30 15:03:30,2018-01-30 15:03:30,0.037s,FAILED

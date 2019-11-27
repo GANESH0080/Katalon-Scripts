@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtfield_SURPLUSLINE_FORM_TEXT</name>
+   <tag></tag>
+   <elementGuidId>73c538c0-611c-4e77-8eec-4fc15ecfa72e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;txtLicensedInsurersName1&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

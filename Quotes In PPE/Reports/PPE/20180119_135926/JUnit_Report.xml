@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="3" tests="0" failures="3" errors="0">
+   <testsuite name="PPE" tests="0" failures="3" errors="0" time="3" timestamp="2018-01-19 13:59:28" hostname="gsalunkhe - CTS-QUA-4.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180119_135926"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Katalon_Mitendra\\Reports\\PPE\\20180119_135926\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsalunkhe - CTS-QUA-4.cogitate.india"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+      </properties>
+      <testcase name="Test Cases/QUOTE_CREATION" classname="Test Cases/QUOTE_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)"/>
+         <system-out><![CDATA[2018-01-19 13:59:28 - [TEST_CASE][FAILED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2018-01-19 13:59:29 - [TEST_STEP][PASSED] - Statement - java.lang.System.setProperty("webdriver.chrome.driver", "C:\Users\gsalunkhe\Downloads\chromedriver.exe"): null
+
+2018-01-19 13:59:29 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2018-01-19 13:59:31 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-out>
+         <system-err><![CDATA[2018-01-19 13:59:28 - [TEST_CASE][FAILED] - Test Cases/QUOTE_CREATION: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APPLICATION_CREATION" classname="Test Cases/APPLICATION_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '1319 Angel Falls Ln SW Atlanta, GA 30311 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-01-19 13:59:31 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to set text '1319 Angel Falls Ln SW Atlanta, GA 30311 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-01-19 13:59:31 - [TEST_STEP][FAILED] - setText: Unable to set text '1319 Angel Falls Ln SW Atlanta, GA 30311 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-01-19 13:59:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-19 13:59:31 - [MESSAGE][FAILED] - Unable to set text '1319 Angel Falls Ln SW Atlanta, GA 30311 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-01-19 13:59:31 - [TEST_CASE][FAILED] - Test Cases/APPLICATION_CREATION: Test Cases/APPLICATION_CREATION FAILED because (of) Unable to set text '1319 Angel Falls Ln SW Atlanta, GA 30311 USA' of object 'Object Repository/Application_OR/txtfield_ADDRESS_ON_QUOTE_PAGE' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENDORSEMENT_CREATION" classname="Test Cases/ENDORSEMENT_CREATION" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-01-19 13:59:31 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-01-19 13:59:31 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-01-19 13:59:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-19 13:59:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-01-19 13:59:31 - [TEST_CASE][FAILED] - Test Cases/ENDORSEMENT_CREATION: Test Cases/ENDORSEMENT_CREATION FAILED because (of) Unable to click on object 'Object Repository/Endorsement_OR/btn_ADVANCE_FILTER' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-19 13:59:28 - [TEST_SUITE][FAILED] - PPE: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-out>
+      <system-err><![CDATA[2018-01-19 13:59:28 - [TEST_SUITE][FAILED] - PPE: Test Cases/QUOTE_CREATION FAILED because (of) Unable to open browser with url: 'http://13.90.102.191:8066' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'CTS-QUA-4', ip: '192.168.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-err>
+   </testsuite>
+</testsuites>

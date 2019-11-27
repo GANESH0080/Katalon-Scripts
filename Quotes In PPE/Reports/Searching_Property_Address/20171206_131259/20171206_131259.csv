@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Searching_Property_Address,,,2017-12-06 13:13:00,2017-12-06 13:13:02,1.191s,ERROR
+,,,,,,
+Test Cases/Searching property Address,,,2017-12-06 13:13:01,2017-12-06 13:13:02,0.857s,ERROR
+"Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE)",,,2017-12-06 13:13:01,2017-12-06 13:13:02,0.301s,FAILED

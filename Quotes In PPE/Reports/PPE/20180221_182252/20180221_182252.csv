@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,Chrome 63.0.3239.132,,2018-02-21 18:22:53,2018-02-21 18:23:59,1m - 5.884s,FAILED
+,,,,,,
+Test Cases/URL Navigation/Navigate To URL,Chrome 63.0.3239.132,User Open an mentioned browser and navigate to URL,2018-02-21 18:22:54,2018-02-21 18:23:01,7.837s,PASSED
+com.PPE.url_Navigation.gotoURL,Chrome 63.0.3239.132,,2018-02-21 18:22:54,2018-02-21 18:23:01,7.303s,PASSED
+,,,,,,
+Test Cases/Login In PPE Application/Incorrect Attempt for Login,Chrome 63.0.3239.132,,2018-02-21 18:23:01,2018-02-21 18:23:38,36.539s,PASSED
+com.PPE.IncorrectLogin.login,Chrome 63.0.3239.132,,2018-02-21 18:23:02,2018-02-21 18:23:38,36.362s,PASSED
+,,,,,,
+Test Cases/Login In PPE Application/Login With Correct Credentials,Chrome 63.0.3239.132,,2018-02-21 18:23:38,2018-02-21 18:23:43,5.092s,PASSED
+com.PPE.Login.correctlogin,Chrome 63.0.3239.132,,2018-02-21 18:23:38,2018-02-21 18:23:43,4.966s,PASSED
+,,,,,,
+Test Cases/Quote Creation/Creating Quote,Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:51,7.851s,FAILED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:43,0.001s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:43,0.000s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:43,0.004s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:43,0.007s,PASSED
+"Statement - If (genericDATA.internallyGetValue(""STATE"", configDataRowCounter) == ""GA"")",Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:43,0.000s,PASSED
+Statement - Else,Chrome 63.0.3239.132,,2018-02-21 18:23:43,2018-02-21 18:23:50,6.257s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-21 18:23:50,2018-02-21 18:23:50,0.404s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-21 18:23:50,2018-02-21 18:23:51,1.069s,FAILED
+,,,,,,
+Test Cases/Application Creation/Creating an Application,Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.271s,FAILED
+Statement - propertyDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.001s,PASSED
+Statement - configDataRowCounter = 0,Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.001s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.006s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.010s,PASSED
+Statement - Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Endorsement_OR/get_Address),Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.005s,PASSED
+"Statement - propertyaddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(Address, ""value"")",Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:51,0.028s,FAILED
+,,,,,,
+Test Cases/UW Endorsement/UW END,Chrome 63.0.3239.132,,2018-02-21 18:23:51,2018-02-21 18:23:52,0.211s,FAILED
+com.PPE.Endorsement_UW.EndorsementByUW,Chrome 63.0.3239.132,,2018-02-21 18:23:52,2018-02-21 18:23:52,0.066s,FAILED
+,,,,,,
+Test Cases/Agent Endorsment Req/Agent END,Chrome 63.0.3239.132,,2018-02-21 18:23:52,2018-02-21 18:23:52,0.183s,FAILED
+com.PPE.Endorsement_Agent.EndorsementByUW,Chrome 63.0.3239.132,,2018-02-21 18:23:52,2018-02-21 18:23:52,0.028s,FAILED
+,,,,,,
+Test Cases/Endorsement Approval/END Appproval,Chrome 63.0.3239.132,,2018-02-21 18:23:52,2018-02-21 18:23:52,0.185s,FAILED
+com.PPE.Endorsement_Approval.EndorsementApprovedUW,Chrome 63.0.3239.132,,2018-02-21 18:23:52,2018-02-21 18:23:52,0.062s,FAILED
+,,,,,,
+Test Cases/UW Cancellation/UW CAN,Chrome 63.0.3239.132,UW Cancellation Process,2018-02-21 18:23:58,2018-02-21 18:23:58,0.161s,FAILED
+com.PPE.Cancellation_UW.CancellationByUW,Chrome 63.0.3239.132,,2018-02-21 18:23:58,2018-02-21 18:23:58,0.049s,FAILED

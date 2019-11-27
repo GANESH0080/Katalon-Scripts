@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PPE,,,2018-02-02 19:50:31,2018-02-02 19:50:39,7.991s,FAILED
+,,,,,,
+Test Cases/QUOTE_CREATION,,Agent Quote process,2018-02-02 19:50:31,2018-02-02 19:50:34,3.080s,FAILED
+Statement - propertyDataRowCounter = 0,,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.002s,PASSED
+Statement - configDataRowCounter = 0,,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.016s,PASSED
+Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File),,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.016s,PASSED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.001s,PASSED
+Statement - obj = data.get(propertyDataRowCounter),,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.031s,PASSED
+"Statement - obj.toString().replace(""N"", ""Y"")",,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.000s,PASSED
+Statement - data.add(obj),,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.000s,PASSED
+Statement - println(obj),,,2018-02-02 19:50:32,2018-02-02 19:50:32,0.001s,PASSED
+com.PPE.url_Navigation.gotoURL,,,2018-02-02 19:50:32,2018-02-02 19:50:34,2.467s,FAILED
+,,,,,,
+Test Cases/APPLICATION_CREATION,,,2018-02-02 19:50:34,2018-02-02 19:50:39,4.365s,FAILED
+Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPEPROPERTYDATA),,,2018-02-02 19:50:35,2018-02-02 19:50:35,0.014s,PASSED
+Statement - propertyDataRowCounter = 0,,,2018-02-02 19:50:35,2018-02-02 19:50:35,0.001s,PASSED
+com.PPE.Saving_PolicyHolderInfo_Page.PolicyHolderPage,,,2018-02-02 19:50:35,2018-02-02 19:50:39,4.140s,FAILED

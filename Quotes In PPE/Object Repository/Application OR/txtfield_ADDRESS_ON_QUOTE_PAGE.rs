@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtfield_ADDRESS_ON_QUOTE_PAGE</name>
+   <tag></tag>
+   <elementGuidId>939c7cfa-01c8-4941-bef8-ba17d4f39126</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;txtAddressAutoComplete&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

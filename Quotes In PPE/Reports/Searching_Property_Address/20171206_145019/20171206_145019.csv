@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Searching_Property_Address,Firefox 41.0,,2017-12-06 14:50:20,2017-12-06 14:51:45,1m - 24.648s,FAILED
+,,,,,,
+Test Cases/Searching property Address,Firefox 41.0,,2017-12-06 14:50:21,2017-12-06 14:51:44,1m - 23.910s,FAILED
+openBrowser,Firefox 41.0,,2017-12-06 14:50:21,2017-12-06 14:50:25,3.965s,PASSED
+maximizeWindow,Firefox 41.0,,2017-12-06 14:50:25,2017-12-06 14:50:25,0.345s,PASSED
+navigateToUrl,Firefox 41.0,,2017-12-06 14:50:25,2017-12-06 14:50:30,4.694s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:50:30,2017-12-06 14:50:30,0.219s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:50:30,2017-12-06 14:50:31,0.159s,PASSED
+click,Firefox 41.0,,2017-12-06 14:50:31,2017-12-06 14:50:36,5.340s,PASSED
+"Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Prepare_property_Address), [:], STOP_ON_FAILURE)",Firefox 41.0,,2017-12-06 14:50:36,2017-12-06 14:50:37,0.955s,PASSED
+Statement - prAddress = prAddress,Firefox 41.0,,2017-12-06 14:50:37,2017-12-06 14:50:37,0.002s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:50:37,2017-12-06 14:50:37,0.313s,PASSED
+click,Firefox 41.0,,2017-12-06 14:50:37,2017-12-06 14:50:49,12.262s,PASSED
+waitForPageLoad,Firefox 41.0,,2017-12-06 14:50:49,2017-12-06 14:50:49,0.070s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:50:49,2017-12-06 14:50:50,0.177s,PASSED
+selectOptionByIndex,Firefox 41.0,,2017-12-06 14:50:50,2017-12-06 14:50:50,0.418s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:50:50,2017-12-06 14:50:50,0.200s,PASSED
+click,Firefox 41.0,,2017-12-06 14:50:50,2017-12-06 14:50:51,0.418s,PASSED
+click,Firefox 41.0,,2017-12-06 14:50:51,2017-12-06 14:51:42,51.179s,PASSED
+waitForElementClickable,Firefox 41.0,,2017-12-06 14:51:42,2017-12-06 14:51:42,0.071s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:51:42,2017-12-06 14:51:42,0.218s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:51:42,2017-12-06 14:51:43,0.470s,PASSED
+click,Firefox 41.0,,2017-12-06 14:51:43,2017-12-06 14:51:43,0.090s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:51:43,2017-12-06 14:51:43,0.354s,PASSED
+setText,Firefox 41.0,,2017-12-06 14:51:43,2017-12-06 14:51:43,0.254s,PASSED
+click,Firefox 41.0,,2017-12-06 14:51:43,2017-12-06 14:51:44,0.287s,PASSED
+selectOptionByIndex,Firefox 41.0,,2017-12-06 14:51:44,2017-12-06 14:51:44,0.286s,PASSED
+waitForElementClickable,Firefox 41.0,,2017-12-06 14:51:44,2017-12-06 14:51:44,0.045s,PASSED
+click,Firefox 41.0,,2017-12-06 14:51:44,2017-12-06 14:51:44,0.515s,FAILED

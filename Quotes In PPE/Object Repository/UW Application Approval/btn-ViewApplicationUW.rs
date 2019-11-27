@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>UW view an Waiting For Approval Application</description>
+   <name>btn-ViewApplicationUW</name>
+   <tag></tag>
+   <elementGuidId>d272bda4-1d2b-4c2d-b44a-eb57de6d1f8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>[@id=&quot;PolicyInfoId&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;PolicyInfoId&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

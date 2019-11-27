@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PPE" time="104" tests="0" failures="1" errors="0">
+   <testsuite name="PPE" tests="0" failures="1" errors="0" time="104" timestamp="2019-05-15 16:18:01" hostname="Gsalunkhe - CTSD006.cogitate.india" id="Test Suites/PPE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Practice_Workspace\\Quotes In PPE\\Reports\\PPE\\20190515_161759"/>
+         <property name="logFiles" value="D:\\Katalon_Practice_Workspace\\Quotes In PPE\\Reports\\PPE\\20190515_161759\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Practice_Workspace\\Quotes In PPE\\Reports\\PPE\\20190515_161759\\1557917354097.png, D:\\Katalon_Practice_Workspace\\Quotes In PPE\\Reports\\PPE\\20190515_161759\\1557917385361.png"/>
+         <property name="hostName" value="Gsalunkhe - CTSD006.cogitate.india"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 46.0"/>
+         <property name="hostAddress" value="192.168.0.214"/>
+         <property name="sessionId" value="95d0f235-66c5-4c01-a59c-ffa49e9bb101"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Quote Creation/Quotes" classname="Test Cases/Quote Creation/Quotes" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id=&quot;lnkLogout&quot;]' not found)"/>
+         <system-out><![CDATA[2019-05-15 16:18:01 - [TEST_CASE][FAILED] - Test Cases/Quote Creation/Quotes: Test Cases/Quote Creation/Quotes FAILED because (of) Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)
+
+2019-05-15 16:18:02 - [TEST_STEP][PASSED] - Statement - url = "http://test.cogitate.us/PPE.Test/": null
+
+2019-05-15 16:18:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://test.cogitate.us/PPE.Test/'
+
+2019-05-15 16:18:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://test.cogitate.us/PPE.Test/'
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-15 16:18:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-05-15 16:18:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - propertyDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Quote-PPEPROPERTYDATA): Test data is internal data, reading internal data
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - propertyDATARows = propertyDATA.getRowNumbers(): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - genericDATA = com.kms.katalon.core.testdata.TestDataFactory.findTestData(PPE_Config_File): Test data is internal data, reading internal data
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - genericDATARows = genericDATA.getRowNumbers(): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - userName = "": null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - password = "": null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - isUsed = "N": null
+
+2019-05-15 16:18:23 - [TEST_STEP][FAILED] - Statement - For ([propertyDataRowCounter = 0, propertyDataRowCounter < propertyDATARows, (propertyDataRowCounter++)]): Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)
+
+2019-05-15 16:18:23 - [TEST_STEP][FAILED] - Statement - Try: Unable to set text '1408 N Hyde Park Ave Durham, NC 27701 USA' of object 'Object Repository/Quote OR/txtfield_ADDRESS_ON_LANDING_PAGE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote OR/txtfield_ADDRESS_ON_LANDING_PAGE' located by 'By.xpath: //input[count(. | //*[@class = 'form-control searchBar']) = count(//*[@class = 'form-control searchBar'])][count(. | //*[@data-val = 'true']) = count(//*[@data-val = 'true'])][count(. | //*[@data-val-required = 'The formattedAddress field is required.']) = count(//*[@data-val-required = 'The formattedAddress field is required.'])][count(. | //*[@id = 'txtAddressAutoComplete']) = count(//*[@id = 'txtAddressAutoComplete'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | //*[@name = 'formattedAddress']) = count(//*[@name = 'formattedAddress'])][count(. | //*[@placeholder = 'Search address:']) = count(//*[@placeholder = 'Search address:'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@autocomplete = 'off']) = count(//*[@autocomplete = 'off'])][count(. | id("txtAddressAutoComplete")) = count(id("txtAddressAutoComplete"))]' not found)
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - isUsed = propertyDATA.internallyGetValue("Is_Used", propertyDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - State = propertyDATA.internallyGetValue("State", propertyDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - For ([configDataRowCounter = 0, configDataRowCounter < genericDATARows, (configDataRowCounter++)]): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - agentState = genericDATA.internallyGetValue("STATE", configDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - If (agentState == State): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - agentState = genericDATA.internallyGetValue("STATE", configDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - If (agentState == State): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - agentState = genericDATA.internallyGetValue("STATE", configDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - If (agentState == State): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - userName = genericDATA.internallyGetValue("USERNAME", configDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - Statement - password = genericDATA.internallyGetValue("PASSWORD", configDataRowCounter): null
+
+2019-05-15 16:18:23 - [TEST_STEP][PASSED] - setText: Text 'ih.jbutler' is set on object 'Object Repository/Quote OR/txtfield_USERNAME'
+
+2019-05-15 16:18:24 - [MESSAGE][PASSED] - Text 'ih.jbutler' is set on object 'Object Repository/Quote OR/txtfield_USERNAME'
+
+2019-05-15 16:18:24 - [TEST_STEP][PASSED] - setText: Text '10#Hammer' is set on object 'Object Repository/Quote OR/txtfield_PASSWORD'
+
+2019-05-15 16:18:24 - [MESSAGE][PASSED] - Text '10#Hammer' is set on object 'Object Repository/Quote OR/txtfield_PASSWORD'
+
+2019-05-15 16:18:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Quote OR/btn-LOGIN' is clicked on
+
+2019-05-15 16:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Quote OR/btn-LOGIN' is clicked on
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - Property_Address = propertyDATA.internallyGetValue("Property_Address", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - println(Property_Address): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - propertyType = propertyDATA.internallyGetValue("PropertyTypeID", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - constructionType = propertyDATA.internallyGetValue("ConstructionTypeID", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - homeValuation = propertyDATA.internallyGetValue("HomeValuation", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - homeBuildYear = propertyDATA.internallyGetValue("HomeBuildYear", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - pFirstName = propertyDATA.internallyGetValue("P_FirstName", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - pLastName = propertyDATA.internallyGetValue("P_LastName", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - contactNumber = propertyDATA.internallyGetValue("ContactNumber", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - Statement - email = propertyDATA.internallyGetValue("Email", propertyDataRowCounter): null
+
+2019-05-15 16:18:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-05-15 16:18:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 16:18:42 - [TEST_STEP][FAILED] - setText: Unable to set text '1408 N Hyde Park Ave Durham, NC 27701 USA' of object 'Object Repository/Quote OR/txtfield_ADDRESS_ON_LANDING_PAGE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote OR/txtfield_ADDRESS_ON_LANDING_PAGE' located by 'By.xpath: //input[count(. | //*[@class = 'form-control searchBar']) = count(//*[@class = 'form-control searchBar'])][count(. | //*[@data-val = 'true']) = count(//*[@data-val = 'true'])][count(. | //*[@data-val-required = 'The formattedAddress field is required.']) = count(//*[@data-val-required = 'The formattedAddress field is required.'])][count(. | //*[@id = 'txtAddressAutoComplete']) = count(//*[@id = 'txtAddressAutoComplete'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | //*[@name = 'formattedAddress']) = count(//*[@name = 'formattedAddress'])][count(. | //*[@placeholder = 'Search address:']) = count(//*[@placeholder = 'Search address:'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@autocomplete = 'off']) = count(//*[@autocomplete = 'off'])][count(. | id("txtAddressAutoComplete")) = count(id("txtAddressAutoComplete"))]' not found)
+
+2019-05-15 16:19:14 - [MESSAGE][FAILED] - Unable to set text '1408 N Hyde Park Ave Durham, NC 27701 USA' of object 'Object Repository/Quote OR/txtfield_ADDRESS_ON_LANDING_PAGE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quote OR/txtfield_ADDRESS_ON_LANDING_PAGE' located by 'By.xpath: //input[count(. | //*[@class = 'form-control searchBar']) = count(//*[@class = 'form-control searchBar'])][count(. | //*[@data-val = 'true']) = count(//*[@data-val = 'true'])][count(. | //*[@data-val-required = 'The formattedAddress field is required.']) = count(//*[@data-val-required = 'The formattedAddress field is required.'])][count(. | //*[@id = 'txtAddressAutoComplete']) = count(//*[@id = 'txtAddressAutoComplete'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | //*[@name = 'formattedAddress']) = count(//*[@name = 'formattedAddress'])][count(. | //*[@placeholder = 'Search address:']) = count(//*[@placeholder = 'Search address:'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@autocomplete = 'off']) = count(//*[@autocomplete = 'off'])][count(. | id("txtAddressAutoComplete")) = count(id("txtAddressAutoComplete"))]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Quotes In PPE\\Reports\\PPE\\20190515_161759\\1557917354097.png]]
+
+2019-05-15 16:19:14 - [TEST_STEP][FAILED] - Statement - Catch (Exception e): Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)
+
+2019-05-15 16:19:14 - [TEST_STEP][PASSED] - Statement - e.printStackTrace(): null
+
+2019-05-15 16:19:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)
+
+2019-05-15 16:19:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)
+[[ATTACHMENT|D:\\Katalon_Practice_Workspace\\Quotes In PPE\\Reports\\PPE\\20190515_161759\\1557917385361.png]]]]></system-out>
+         <system-err><![CDATA[2019-05-15 16:18:01 - [TEST_CASE][FAILED] - Test Cases/Quote Creation/Quotes: Test Cases/Quote Creation/Quotes FAILED because (of) Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-15 16:18:01 - [TEST_SUITE][FAILED] - PPE: Test Cases/Quote Creation/Quotes FAILED because (of) Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)]]></system-out>
+      <system-err><![CDATA[2019-05-15 16:18:01 - [TEST_SUITE][FAILED] - PPE: Test Cases/Quote Creation/Quotes FAILED because (of) Unable to click on object 'Object Repository/Endorsement OR/btn_LOGOUT_UW' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Endorsement OR/btn_LOGOUT_UW' located by 'By.xpath: //*[@id="lnkLogout"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
